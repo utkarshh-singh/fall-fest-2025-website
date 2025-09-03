@@ -13,7 +13,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:
 a{color:var(--accent);text-decoration:none}
 .container{max-width:1100px;margin:0 auto;padding:0 20px}
 .site-header{position:sticky;top:0;background:rgba(11,13,18,.8);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--border);z-index:9}
-.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0}
+.nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:12px;padding:12px 0}
 .nav nav a{margin:0 8px;color:var(--muted)}
 .brand{display:flex;align-items:center;gap:10px;font-weight:600}
 .logo{width:28px;height:28px}
