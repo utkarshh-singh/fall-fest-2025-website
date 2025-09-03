@@ -40,7 +40,9 @@ a{color:var(--accent);text-decoration:none}
 .schedule .time{min-width:90px;color:var(--muted)}
 .about-banner{
   width:100%;
-  display:block;
+  height:clamp(200px, 28vw, 380px);  /* responsive fixed height */
+  object-fit:cover;                  /* crop to fill the box */
+  object-position:center;            /* center the crop */
   border-radius:16px;
   margin:0 0 16px;
   box-shadow:0 14px 36px rgba(0,0,0,.28);
