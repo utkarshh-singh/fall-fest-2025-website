@@ -31,6 +31,27 @@
          href="{{ site.register_url }}"
          target="_blank" rel="noopener">Register</a>
     </div>
+
+    <div class="nav-right">
+      <!-- Desktop CTA (hidden on mobile) -->
+      <a class="btn header-cta" href="{{ site.register_url | default: '/registration/' | relative_url }}" target="_blank" rel="noopener">Register</a>
+    
+      <!-- CSS-only mobile toggle -->
+      <input type="checkbox" id="navcb" class="navcb" aria-hidden="true">
+      <label for="navcb" class="nav-toggle" aria-controls="site-menu" aria-label="Toggle menu">☰</label>
+    
+      <nav id="site-menu" class="site-menu" role="navigation">
+        <!-- Mobile CTA (shows only on mobile) -->
+        <a href="{{ site.register_url | default: '/registration/' | relative_url }}" class="nav-link cta show-mobile" target="_blank" rel="noopener">Register</a>
+    
+        {% for item in site.data.nav %}
+          <a href="{{ item.url | relative_url }}"
+             class="nav-link {% if page.url == item.url %}active{% endif %}">
+            {{ item.title }}
+          </a>
+        {% endfor %}
+      </nav>
+    </div>
   </header>
 
   {{ content }}
