@@ -75,7 +75,7 @@ a{color:var(--accent);text-decoration:none}
 
 /* Clamp PNG logo size (prevents giant images) */
 .sponsor-logo{
-  height:36px;          /* adjust 32–48px to taste */
+  height:40px;          /* adjust 32–48px to taste */
   width:auto;
   max-width:40px;      /* long wordmarks safety cap */
   object-fit:contain;
