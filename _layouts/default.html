@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ '/assets/qff-mark.svg' | relative_url }}">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <img src="{{ '/assets/qff-mark.svg' | relative_url }}" alt="" class="logo">
+        <span>Qiskit Fall Fest 2025 • uOttawa</span>
+      </div>
+
+      {% include nav.html %}
+
+      <!-- Register button lives in header on all pages -->
+      <a class="btn primary"
+         href="{{ site.register_url }}"
+         target="_blank" rel="noopener">Register</a>
+    </div>
+  </header>
+
+  {{ content }}
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Qiskit Fall Fest – University of Ottawa. Built with GitHub Pages.</p>
+      <p><a href="{{ '/CODE_OF_CONDUCT.md' | relative_url }}">Code of Conduct</a> •
+         <a href="https://qiskit.org/" target="_blank" rel="noopener">Qiskit</a></p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/site.js' | relative_url }}"></script>
+</body>
+</html>
