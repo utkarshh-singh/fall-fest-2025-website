@@ -81,11 +81,4 @@ title: Home
   </p>
 </section>
 
-
-  <section id="schedule" class="card">
-    <h2>Schedule</h2>
-    <p>Times are shown in ET. Subject to change.</p>
-    <div id="schedule-root" class="schedule"></div>
-  </section>
-
 </main>
