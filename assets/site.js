@@ -24,3 +24,18 @@ async function loadSchedule(){
   }
 }
 document.addEventListener('DOMContentLoaded', loadSchedule);
+// Theme toggle (persists in localStorage)
+(function(){
+  const key='qff-theme';
+  const root=document.documentElement;
+  const stored=localStorage.getItem(key);
+  root.dataset.theme = stored || 'light';
+  const btn=document.getElementById('theme-toggle');
+  if(btn){
+    btn.addEventListener('click',()=>{
+      const next = root.dataset.theme==='light' ? 'dark' : 'light';
+      root.dataset.theme=next; localStorage.setItem(key,next);
+    });
+  }
+})();
+
