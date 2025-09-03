@@ -45,7 +45,9 @@ html[data-theme="dark"] .about-banner{box-shadow:0 14px 36px rgba(0,0,0,.28)}
 .btn.sm{padding:6px 10px;font-size:.9rem}
 
 .pill{display:inline-block;padding:6px 10px;border:1px solid #dfe3ee;border-radius:999px;color:#495065;background:#fff;margin-right:8px}
-.logo{width:44px; height:44px; border-radius:12px; display:block}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text);font-weight:600}
+.logo{width:44px;height:44px;border-radius:12px;display:block}
+
 
 /* Hero (soft, light gradient) */
 .hero{background:
