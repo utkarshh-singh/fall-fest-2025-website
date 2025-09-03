@@ -1,8 +1,11 @@
 async function loadSchedule(){
   try{
-    const res = await fetch('data/schedule.json');
+    // Use absolute path injected by a page, or fall back to relative
+    const src = window.QFF_SCHEDULE_SRC || 'data/schedule.json';
+    const res = await fetch(src);
     const data = await res.json();
     const root = document.getElementById('schedule-root');
+    if(!root) return;
     root.innerHTML = '';
     data.days.forEach(day=>{
       const h3 = document.createElement('h3');
