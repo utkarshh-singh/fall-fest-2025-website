@@ -7,10 +7,6 @@ title: Home
   <div class="container hero-inner">
     <h1>Learn. Build. Quantum.</h1>
     <p>Join us for a two-day festival of beginner-friendly workshops and a high-energy hackathon — powered by IBM Quantum and the uOttawa community.</p>
-    <div class="cta">
-<!--       <a class="btn primary" href="{{ site.register_url }}" target="_blank" rel="noopener">Register</a> -->
-<!--       <a class="btn ghost" href="#schedule">See schedule</a>
-    </div> -->
     <div class="meta">
       <span class="pill">Nov 1–2, 2025</span>
       <span class="pill">University of Ottawa</span>
