@@ -60,3 +60,35 @@ a{color:var(--accent);text-decoration:none}
 
 /* small screens */
 @media (max-width:640px){ .hero h1{font-size:36px} .nav nav{display:none} }
+
+/* Sponsors: single horizontal line, no overflow */
+.sponsor-strip{
+  display:flex;
+  align-items:center;
+  gap:24px;                 /* space between logos */
+  padding:6px 0;
+  flex-wrap:nowrap;         /* keep one line */
+  overflow-x:auto;          /* allow horizontal scroll on small screens */
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;     /* hide Firefox scrollbar */
+}
+.sponsor-strip::-webkit-scrollbar{ display:none; } /* hide WebKit scrollbar */
+
+/* Make logos small, consistent, and responsive */
+.sponsor-strip img{
+  height:40px;              /* adjust size here (e.g., 36–56px) */
+  width:auto;               /* maintain aspect ratio */
+  max-width:180px;          /* safety cap for very wide logos */
+  flex:0 0 auto;            /* don’t let them shrink/stretch */
+  object-fit:contain;
+  display:block;
+}
+
+/* (optional) grayscale for a subtle look on dark UI
+.sponsor-strip img{ filter: grayscale(100%) opacity(.9); }
+.sponsor-strip img:hover{ filter:none; }
+*/
+
+/* Ensure images never push outside cards */
+.card img{ max-width:100%; height:auto; }
+
