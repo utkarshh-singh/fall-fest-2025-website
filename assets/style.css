@@ -80,6 +80,40 @@ html[data-theme="dark"] .about-banner{box-shadow:0 14px 36px rgba(0,0,0,.28)}
 .card img{max-width:100%;height:auto;display:block}
 .about-banner{width:100%;height:clamp(220px,28vw,380px);object-fit:cover;object-position:center;border-radius:16px;margin:0 0 16px;box-shadow:0 14px 36px rgba(15,23,42,.10)}
 
+/* --- Schedule table (light + dark friendly) --- */
+.day-heading{margin:8px 0 10px;font-size:1.15rem}
+.schedule-table{
+  width:100%;
+  border-collapse:separate; border-spacing:0;
+  background:var(--card); border:1px solid var(--border);
+  border-radius:12px; overflow:hidden;
+  box-shadow:0 6px 18px rgba(15,23,42,.06);
+}
+.schedule-table thead th{
+  position:sticky; top:0; z-index:1;
+  background:#fff; /* overridden in dark below */
+  color:var(--text); text-align:left; font-weight:700;
+  padding:12px 14px; border-bottom:1px solid var(--border);
+}
+.schedule-table tbody td{padding:12px 14px; vertical-align:top; border-top:1px solid var(--border)}
+.schedule-table tbody tr:nth-child(even){background:#f7f8fb}
+
+/* Dark theme tweak if you use the toggle */
+html[data-theme="dark"] .schedule-table thead th{background:#161a24}
+html[data-theme="dark"] .schedule-table tbody tr:nth-child(even){background:#121621}
+
+/* Mobile: stack rows into labeled blocks */
+@media (max-width:700px){
+  .schedule-table, .schedule-table thead, .schedule-table tbody, .schedule-table tr, .schedule-table th, .schedule-table td{display:block; width:100%}
+  .schedule-table thead{display:none}
+  .schedule-table tr{border-top:1px solid var(--border)}
+  .schedule-table td{border:none; padding:8px 12px}
+  .schedule-table td::before{
+    content: attr(data-label);
+    display:block; font-weight:600; color:var(--muted); margin-bottom:2px;
+  }
+}
+
 /* Keep anchor targets visible under sticky header */
 [id]{scroll-margin-top:80px}
 
