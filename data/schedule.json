@@ -1,0 +1,77 @@
+{
+  "days": [
+    {
+      "title": "Day 1 \u2022 Workshops (Sat)",
+      "slots": [
+        {
+          "time": "09:00\u201309:30",
+          "title": "Check\u2011in & Breakfast",
+          "desc": "Grab a badge and say hi!"
+        },
+        {
+          "time": "09:30\u201310:30",
+          "title": "Opening & Quantum 101",
+          "desc": "Welcome remarks and intro to qubits & circuits."
+        },
+        {
+          "time": "10:45\u201312:00",
+          "title": "Qiskit Hands\u2011on",
+          "desc": "Run your first circuits on simulators."
+        },
+        {
+          "time": "12:00\u201313:00",
+          "title": "Lunch"
+        },
+        {
+          "time": "13:00\u201314:30",
+          "title": "QML Primer",
+          "desc": "Quantum kernels and hybrid models."
+        },
+        {
+          "time": "14:45\u201316:00",
+          "title": "Build Hour",
+          "desc": "Mini\u2011challenge with mentors."
+        },
+        {
+          "time": "16:15\u201317:00",
+          "title": "Hackathon Kickoff",
+          "desc": "Themes, rules, and team formation."
+        },
+        {
+          "time": "17:00\u201318:00",
+          "title": "Team Sprint",
+          "desc": "Start ideating with mentors."
+        }
+      ]
+    },
+    {
+      "title": "Day 2 \u2022 Hackathon (Sun)",
+      "slots": [
+        {
+          "time": "09:00\u201309:30",
+          "title": "Breakfast & Check\u2011in"
+        },
+        {
+          "time": "09:30\u201312:30",
+          "title": "Hacking + Mentors on duty"
+        },
+        {
+          "time": "12:30\u201313:30",
+          "title": "Lunch"
+        },
+        {
+          "time": "13:30\u201316:00",
+          "title": "Project Wrap\u2011up & Submissions"
+        },
+        {
+          "time": "16:15\u201317:30",
+          "title": "Demos & Judging"
+        },
+        {
+          "time": "17:30\u201318:00",
+          "title": "Awards & Closing"
+        }
+      ]
+    }
+  ]
+}
