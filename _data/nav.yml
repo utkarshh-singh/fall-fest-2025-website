@@ -1,10 +1,10 @@
-- title: About
-  url: /
 - title: Speakers
   url: /speakers/
 - title: Sponsors
   url: /sponsors/
 - title: Organizers
   url: /organizers/
+- title: FAQ
+  url: /faq/
 - title: Contact
   url: /contact/
