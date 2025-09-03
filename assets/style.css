@@ -61,7 +61,7 @@ a{color:var(--accent);text-decoration:none}
 /* small screens */
 @media (max-width:640px){ .hero h1{font-size:36px} .nav nav{display:none} }
 
-/* Single-line, scrollable on small screens */
+/* one clean row; scrolls on very small screens */
 .sponsor-strip{
   display:flex;
   align-items:center;
@@ -73,22 +73,24 @@ a{color:var(--accent);text-decoration:none}
 }
 .sponsor-strip::-webkit-scrollbar{ display:none; }
 
-/* Clamp PNG logo size (prevents giant images) */
+/* clamp each logo's size */
 .sponsor-logo{
-  height:40px;          /* adjust 32–48px to taste */
+  height:36px;      /* change to 32–48px if you prefer */
   width:auto;
-  max-width:40px;      /* long wordmarks safety cap */
+  max-width:200px;  /* long wordmarks safety cap */
   object-fit:contain;
   flex:0 0 auto;
   display:block;
 }
 
-/* Never let images overflow cards */
-.card img{ max-width:100%; height:auto; }
-
-/* Smaller on very small screens */
+/* bulletproof override (handles any leftover rules making images huge) */
+#sponsors img{
+  height:36px !important;
+  width:auto !important;
+  max-width:200px !important;
+}
 @media (max-width:480px){
-  .sponsor-logo{ height:32px; }
+  .sponsor-logo, #sponsors img{ height:32px !important; }
 }
 
 /* Ensure images never push outside cards */
