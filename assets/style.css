@@ -76,9 +76,9 @@ a{color:var(--accent);text-decoration:none}
 
 /* Make logos small, consistent, and responsive */
 .sponsor-strip img{
-  height:40px;              /* adjust size here (e.g., 36–56px) */
+  height:20px;              /* adjust size here (e.g., 36–56px) */
   width:auto;               /* maintain aspect ratio */
-  max-width:180px;          /* safety cap for very wide logos */
+  max-width:40px;          /* safety cap for very wide logos */
   flex:0 0 auto;            /* don’t let them shrink/stretch */
   object-fit:contain;
   display:block;
