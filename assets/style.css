@@ -38,5 +38,20 @@ a{color:var(--accent);text-decoration:none}
 .schedule{display:grid;gap:10px}
 .schedule .slot{display:flex;gap:12px;align-items:flex-start;background:#0f1420;border:1px solid var(--border);padding:10px;border-radius:10px}
 .schedule .time{min-width:90px;color:var(--muted)}
+.about-banner{
+  width:100%;
+  display:block;
+  border-radius:16px;
+  margin:0 0 16px;
+  box-shadow:0 14px 36px rgba(0,0,0,.28);
+}
+
+/* Optional: make it a cropped banner strip (uncomment to use)
+.about-banner{
+  height:320px;
+  object-fit:cover;   /* crops evenly to keep it punchy */
+}
+*/
+
 /* small screens */
 @media (max-width:640px){ .hero h1{font-size:36px} .nav nav{display:none} }
