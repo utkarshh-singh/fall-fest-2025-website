@@ -30,8 +30,6 @@ title: Home
     decoding="async"
   >
 
-  <h2>About</h2>
-
   <p>
     <strong>Qiskit Fall Fest — University of Ottawa</strong> is a student-run celebration of learning,
     making, and community in quantum computing. Over one weekend, we bring together curious beginners,
