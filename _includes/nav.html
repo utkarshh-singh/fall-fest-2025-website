@@ -7,7 +7,7 @@
   {% endfor %}
 </nav> -->
 
-<button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle menu">☰</button>
+<!-- <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle menu">☰</button>
 
 <nav id="site-menu" class="site-menu" role="navigation">
   {% for item in site.data.nav %}
@@ -16,4 +16,24 @@
       {{ item.title }}
     </a>
   {% endfor %}
-</nav>
+</nav> -->
+
+
+<!-- Right side: hamburger + menu -->
+<div class="nav-right">
+  <!-- invisible checkbox drives the toggle -->
+  <input type="checkbox" id="navcb" class="navcb" aria-hidden="true">
+
+  <!-- the button users tap -->
+  <label for="navcb" class="nav-toggle" aria-controls="site-menu" aria-label="Toggle menu">☰</label>
+
+  <!-- the menu itself -->
+  <nav id="site-menu" class="site-menu" role="navigation">
+    {% for item in site.data.nav %}
+      <a href="{{ item.url | relative_url }}"
+         class="nav-link {% if page.url == item.url %}active{% endif %}">
+        {{ item.title }}
+      </a>
+    {% endfor %}
+  </nav>
+</div>
