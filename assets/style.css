@@ -77,7 +77,7 @@ a{color:var(--accent);text-decoration:none}
 .sponsor-logo{
   height:36px;          /* adjust 32–48px to taste */
   width:auto;
-  max-width:180px;      /* long wordmarks safety cap */
+  max-width:40px;      /* long wordmarks safety cap */
   object-fit:contain;
   flex:0 0 auto;
   display:block;
