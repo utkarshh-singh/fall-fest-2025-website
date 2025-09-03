@@ -61,33 +61,35 @@ a{color:var(--accent);text-decoration:none}
 /* small screens */
 @media (max-width:640px){ .hero h1{font-size:36px} .nav nav{display:none} }
 
-/* Sponsors: single horizontal line, no overflow */
+/* Single-line, scrollable on small screens */
 .sponsor-strip{
   display:flex;
   align-items:center;
-  gap:24px;                 /* space between logos */
-  padding:6px 0;
-  flex-wrap:nowrap;         /* keep one line */
-  overflow-x:auto;          /* allow horizontal scroll on small screens */
+  gap:24px;
+  flex-wrap:nowrap;
+  overflow-x:auto;
   -webkit-overflow-scrolling:touch;
-  scrollbar-width:none;     /* hide Firefox scrollbar */
+  scrollbar-width:none;
 }
-.sponsor-strip::-webkit-scrollbar{ display:none; } /* hide WebKit scrollbar */
+.sponsor-strip::-webkit-scrollbar{ display:none; }
 
-/* Make logos small, consistent, and responsive */
-.sponsor-strip img{
-  height:20px;              /* adjust size here (e.g., 36–56px) */
-  width:auto;               /* maintain aspect ratio */
-  max-width:40px;          /* safety cap for very wide logos */
-  flex:0 0 auto;            /* don’t let them shrink/stretch */
+/* Clamp PNG logo size (prevents giant images) */
+.sponsor-logo{
+  height:36px;          /* adjust 32–48px to taste */
+  width:auto;
+  max-width:180px;      /* long wordmarks safety cap */
   object-fit:contain;
+  flex:0 0 auto;
   display:block;
 }
 
-/* (optional) grayscale for a subtle look on dark UI
-.sponsor-strip img{ filter: grayscale(100%) opacity(.9); }
-.sponsor-strip img:hover{ filter:none; }
-*/
+/* Never let images overflow cards */
+.card img{ max-width:100%; height:auto; }
+
+/* Smaller on very small screens */
+@media (max-width:480px){
+  .sponsor-logo{ height:32px; }
+}
 
 /* Ensure images never push outside cards */
 .card img{ max-width:100%; height:auto; }
