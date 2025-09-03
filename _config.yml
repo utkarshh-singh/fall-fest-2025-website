@@ -1,0 +1,15 @@
+title: "Qiskit Fall Fest 2025 — uOttawa"
+description: "Workshops + hackathon. Free. Beginners welcome."
+# If this is a project site like username.github.io/repo, set baseurl to "/<repo>"
+# If you use a custom domain or a user/organization site, leave baseurl empty.
+baseurl: ""        # e.g., "/fall-fest-2025-website"  ← put this ONLY if needed
+url: ""            # e.g., "https://fallfestuottawa.site" if you add a custom domain
+timezone: America/Toronto
+
+# Simple site variables (edit once, used everywhere)
+register_url: "https://bit.ly/your-link"
+discord_url:  "https://your-discord-invite"
+
+markdown: kramdown
+theme: null          # we use our own HTML/CSS
+permalink: pretty
