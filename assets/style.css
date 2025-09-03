@@ -16,7 +16,7 @@ a{color:var(--accent);text-decoration:none}
 .nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:12px;padding:12px 0}
 .nav nav a{margin:0 8px;color:var(--muted)}
 .brand{display:flex;align-items:center;gap:10px;font-weight:600}
-.logo{width:28px;height:28px}
+/* .logo{width:28px;height:28px} */
 .btn{display:inline-block;padding:10px 16px;border-radius:999px;border:1px solid var(--border)}
 .btn.primary{background:var(--brand);border-color:transparent;color:white}
 .btn.ghost{background:transparent}
