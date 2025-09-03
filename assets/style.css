@@ -1,0 +1,73 @@
+/* ===== Light theme (default) ===== */
+:root{
+  --bg: #f7f8fb;
+  --card: #ffffff;
+  --text: #0b0d12;
+  --muted: #5b6472;
+  --brand: #6f3ff5;   /* purple */
+  --accent: #00bcd4;  /* teal */
+  --border: #e6e9f2;
+}
+
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial,"Noto Sans",sans-serif; line-height:1.6}
+
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+
+/* Header */
+.site-header{position:sticky;top:0;background:rgba(255,255,255,.85);
+  backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--border);z-index:9}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;min-width:0}
+.nav .brand{display:flex;align-items:center;gap:10px;font-weight:600;color:#2b3240}
+.nav nav{display:flex;gap:12px;flex:1 1 auto;flex-wrap:nowrap;white-space:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.nav nav::-webkit-scrollbar{display:none}
+.nav nav a{color:#4c5566;padding:6px 10px;border-radius:8px}
+.nav nav a:hover,.nav nav a.active{color:var(--text);background:#f2f4f8}
+
+/* Buttons */
+.btn{display:inline-block;padding:10px 16px;border-radius:999px;border:1px solid var(--border);
+  transition:transform .08s ease, box-shadow .2s ease}
+.btn.primary{background:var(--brand);border-color:transparent;color:#fff}
+.btn.ghost{background:#fff;color:#2b3240}
+.btn:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(15,23,42,.12)}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.sm{padding:6px 10px;font-size:.9rem}
+
+.pill{display:inline-block;padding:6px 10px;border:1px solid #dfe3ee;border-radius:999px;color:#495065;background:#fff;margin-right:8px}
+
+/* Hero (soft, light gradient) */
+.hero{background:
+  radial-gradient(900px 500px at 20% -30%, rgba(111,63,245,.16), transparent),
+  radial-gradient(900px 500px at 80% -20%, rgba(0,188,212,.14), transparent)}
+.hero-inner{padding:72px 0 36px}
+.hero h1{font-size:48px;line-height:1.1;margin:0 0 8px}
+.hero p{max-width:700px;color:var(--muted);margin:0 0 16px}
+
+/* Cards */
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;margin:20px 0;
+  box-shadow:0 8px 28px rgba(15,23,42,.08)}
+.center{text-align:center}
+
+/* Grids */
+.grid{display:grid;gap:16px}
+.grid.two{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.grid.three{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+
+/* People tiles */
+.people .person{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px}
+.people .person img{width:100%;height:180px;object-fit:cover;background:#f4f6fb;border-radius:8px;margin-bottom:8px}
+
+/* Sponsor row (small, single line) */
+.sponsor-strip{display:flex;align-items:center;gap:24px;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.sponsor-strip::-webkit-scrollbar{display:none}
+.sponsor-logo{height:36px;width:auto;max-width:200px;object-fit:contain;flex:0 0 auto;display:block}
+
+/* About banner */
+.card img{max-width:100%;height:auto;display:block}
+.about-banner{width:100%;height:clamp(220px,28vw,380px);object-fit:cover;object-position:center;border-radius:16px;margin:0 0 16px;box-shadow:0 14px 36px rgba(15,23,42,.10)}
+
+/* Keep anchor targets visible under sticky header */
+[id]{scroll-margin-top:80px}
+
+/* Mobile tweaks */
+@media (max-width:640px){ .hero h1{font-size:36px} }
