@@ -15,7 +15,7 @@ permalink: /organizers/
         <p class="bio">Quantum ML researcher; Qiskit Advocate.</p>
       </article>
       <article class="person">
-        <img src="{{ '/assets/person-placeholder.svg' | relative_url }}" alt="Mohamed Reda" loading="lazy">
+        <img src="{{ '/assets/mrj_headshot.png' | relative_url }}" alt="Mohamed Reda" loading="lazy">
         <h3>Mohamed Reda</h3>
         <p class="affil">Organizer • uOttawa</p>
         <p class="bio">[Add role/focus]</p>
