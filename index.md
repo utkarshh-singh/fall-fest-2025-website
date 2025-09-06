@@ -17,7 +17,6 @@ title: Home
 
 <main class="container">
   <section id="about" class="card">
-  <!-- Keep or remove the banner image as you like -->
   <img
     src="{{ '/assets/Full_Illustration.png' | relative_url }}"
     alt="Illustration celebrating quantum ideas and pioneers"
@@ -27,9 +26,9 @@ title: Home
   >
 
   <p>
-    <strong>Qiskit Fall Fest</strong> is a student-run celebration of learning,
-    making, and community building in quantum computing. In 2025, we’re marking 
-    <strong>100 years of quantum</strong>, bringing together curious beginners,
+    <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
+    making, and community building in quantum computing. This year, we’re marking 
+    <strong>100 years of quantum science</strong> by bringing together curious beginners,
     builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
     by IBM Quantum and the uOttawa community.
   </p>
