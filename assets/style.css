@@ -274,7 +274,7 @@ html[data-theme="dark"] .callout.danger{background:#2a1113;border-color:#7f1d1d;
 .sponsor-logo{
   height:40px !important;           /* keep them small */
   width:auto !important;
-  max-width:40px;                   /* safety cap for very wide svgs/pngs */
+  max-width:120px;                   /* safety cap for very wide svgs/pngs */
   object-fit:contain;
   flex:0 0 auto; display:block;
 }
