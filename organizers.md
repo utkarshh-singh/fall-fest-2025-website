@@ -16,13 +16,13 @@ permalink: /organizers/
       </article>
       <article class="person">
         <img src="{{ '/assets/mrj_headshot.png' | relative_url }}" alt="Mohamed Reda" loading="lazy">
-        <h3>Mohamed Reda</h3>
+        <h3>< href="https://www.linkedin.com/in/reda-jahouri/" target="_blank" rel="noopener">Mohamed Reda</a></h3>
         <p class="affil">Organizer • uOttawa</p>
         <p class="bio">[Add role/focus]</p>
       </article>
       <article class="person">
         <img src="{{ '/assets/sayed.jpg' | relative_url }}" alt="Seyed Ibrahim Hosseini" loading="lazy">
-        <h3>Seyed Ibrahim Hosseini</h3>
+        <h3><a href="https://www.linkedin.com/in/seyed-ibrahim-hosseini/" target="_blank" rel="noopener">Seyed Ibrahim Hosseini</a></h3>
         <p class="affil">Organizer • uOttawa</p>
         <p class="bio">[Add role/focus]</p>
       </article>
