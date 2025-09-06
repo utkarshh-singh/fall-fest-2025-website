@@ -87,6 +87,38 @@ title: Home
   </p>
 </section>
 
+<section class="card narrow" aria-labelledby="sponsor-heading">
+  <h2 id="sponsor-heading">Sponsors & Partners</h2>
+
+  <div class="sponsor-slider" role="region" aria-label="Sponsor logos">
+    <button class="ss-nav ss-prev" aria-label="Previous logos">‹</button>
+
+    <div class="ss-viewport" id="sponsorViewport">
+      <div class="ss-track">
+        {% for sp in site.data.sponsors %}
+          <a class="sponsor-tile" href="{{ sp.url }}" target="_blank" rel="noopener">
+            <img src="{{ sp.logo | relative_url }}" alt="{{ sp.name }}">
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <button class="ss-nav ss-next" aria-label="Next logos">›</button>
+    <button class="ss-pause" aria-pressed="false" aria-label="Pause autoplay">Pause</button>
+  </div>
+
+  <noscript>
+    <div class="sponsor-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px">
+      {% for sp in site.data.sponsors %}
+        <a class="sponsor-tile" href="{{ sp.url }}" target="_blank" rel="noopener">
+          <img src="{{ sp.logo | relative_url }}" alt="{{ sp.name }}">
+        </a>
+      {% endfor %}
+    </div>
+  </noscript>
+</section>
+
+
 <section class="card center">
   <h2>Stay in the loop</h2>
   <p>Event updates, team-formation, and mentor Q&A happen on our Discord.</p>
