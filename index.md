@@ -27,10 +27,10 @@ title: Home
 
   <p>
     <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
-    making, and community building in quantum computing. This year, we’re marking 
+    making, and community building. This year, we’re marking 
     <strong>100 years of quantum science</strong> by bringing together curious beginners,
     builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
-    by IBM Quantum and the uOttawa community.
+    by <strong>IBM Quantum</strong>strong> and the <strong>uOttawa</strong>strong> community.
   </p>
 
   <h3>What you’ll do</h3>
