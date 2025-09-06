@@ -27,7 +27,7 @@ permalink: /faq/
     </details>
     <details>
       <summary>How will I get updates?</summary>
-      <p>All updates are posted in our Discord and on this <a href="{{ '' | relative_url }}" target="_blank" rel="noopener">website</a>. Join here: <a href="{{ site.discord_url }}" target="_blank" rel="noopener">{{ site.discord_url }}</a>.</p>
+      <p>All updates are posted in our Discord and on this <a href="{{ '/' | relative_url }}" target="_blank" rel="noopener">website</a>. Join here: <a href="{{ site.discord_url }}" target="_blank" rel="noopener">{{ site.discord_url }}</a>.</p>
     </details>
 
     <!-- Logistics -->
