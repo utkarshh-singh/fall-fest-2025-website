@@ -315,7 +315,7 @@ html[data-theme="dark"] .sponsor-tile{ background:#0f1420; }
   --mq-gap: 16px;
   --tile-w: 180px;   /* desktop tile width */
   --tile-h: 72px;    /* desktop tile height */
-  --mq-speed: 28s;   /* animation duration; increase for slower scroll */
+  --mq-speed: 10s;   /* animation duration; increase for slower scroll */
 }
 
 .card.narrow{ max-width:960px; margin:20px auto; }
@@ -348,7 +348,7 @@ html[data-theme="dark"] .sponsor-tile{ background:#0f1420; }
 /* neutralize generic .card img inside this component */
 .card .sponsor-marquee img{ max-width:100%; }
 
-@media (max-width:1024px){ :root{ --tile-w:170px; --tile-h:64px; --mq-speed: 26s; } }
+@media (max-width:960px){ :root{ --tile-w:170px; --tile-h:64px; --mq-speed: 26s; } }
 @media (max-width:640px){  :root{ --tile-w:160px; --tile-h:56px; --mq-speed: 24s; } }
 
 @keyframes marquee{
