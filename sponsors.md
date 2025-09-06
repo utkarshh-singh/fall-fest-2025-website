@@ -1,3 +1,9 @@
+---
+layout: default
+title: Sponsors
+permalink: /sponsors/
+---
+
 <section id="sponsors" class="card">
   <h2>Sponsors & Partners</h2>
 
