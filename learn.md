@@ -16,22 +16,21 @@ permalink: /learn/
   <section class="card">
     <h2>📌 Suggested 60-minute path</h2>
     <ol>
-      <li>Watch a 10–15 min intro video (below).</li>
-      <li>Read the first chapter of the Qiskit Textbook.</li>
-      <li>Open IBM Quantum Lab and run the “Hello, Qiskit” notebook.</li>
+      <li>Open this Colab notebook: <a href="https://colab.research.google.com/github/mtreinish/qiskit-workshop/blob/master/Workshop.ipynb" target="_blank" rel="noopener">Qiskit 101 (Colab)</a>.</li>
+      <li>Run the first cells to install Qiskit (the notebook guides you).</li>
+      <li>Skim the first chapter of the <a href="https://qiskit.org/textbook/" target="_blank" rel="noopener">Qiskit Textbook</a>.</li>
     </ol>
-    <p class="note">Stuck? Hop into our Discord on the Contact page.</p>
+    <p class="note">No installs required — everything runs in your browser via Google Colab.</p>
   </section>
-
+  
   <section class="grid two">
     <div class="card">
-      <h2>▶️ Watch (10–30 min)</h2>
+      <h2>▶️ Watch (short)</h2>
       <ul>
-        <li><a href="https://www.youtube.com/@Qiskit" target="_blank" rel="noopener">Qiskit YouTube channel</a> — short intros & playlists.</li>
-        <li><a href="https://www.youtube.com/@IBMQuantum" target="_blank" rel="noopener">IBM Quantum on YouTube</a> — concepts & demos.</li>
+        <li><a href="https://www.youtube.com/@Qiskit" target="_blank" rel="noopener">Qiskit YouTube channel</a> — concise intros & playlists.</li>
       </ul>
     </div>
-
+  
     <div class="card">
       <h2>📖 Read</h2>
       <ul>
@@ -40,21 +39,22 @@ permalink: /learn/
       </ul>
     </div>
   </section>
-
+  
   <section class="grid two">
     <div class="card">
-      <h2>💻 Try in your browser</h2>
+      <h2>💻 Try in your browser (Colab)</h2>
       <ul>
-        <li><a href="https://lab.quantum-computing.ibm.com/" target="_blank" rel="noopener">IBM Quantum Lab</a> — Jupyter notebooks, no install.</li>
-        <li><a href="https://qiskit.org/learn" target="_blank" rel="noopener">Qiskit Learn</a> — guided learning paths.</li>
+        <li><a href="https://colab.research.google.com/github/mtreinish/qiskit-workshop/blob/master/Workshop.ipynb" target="_blank" rel="noopener">Open Qiskit 101 on Colab</a></li>
+        <li><a href="https://quantum.cloud.ibm.com/docs/guides/online-lab-environments" target="_blank" rel="noopener">Colab install snippet</a> — the docs show the exact <code>%pip install qiskit qiskit-ibm-runtime</code> command.</li>
       </ul>
+      <p class="note">IBM Quantum Lab isn’t required — we use Google Colab here.</p>
     </div>
-
+  
     <div class="card">
       <h2>🧰 Cheat sheets</h2>
       <ul>
-        <li><a href="https://numpy.org/doc/stable/user/absolute_beginners.html" target="_blank" rel="noopener">NumPy for beginners</a> (useful for QML).</li>
-        <li><a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener">Python tutorial</a> — quick refresher.</li>
+        <li><a href="https://numpy.org/doc/stable/user/absolute_beginners.html" target="_blank" rel="noopener">NumPy for beginners</a></li>
+        <li><a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener">Python tutorial</a></li>
       </ul>
     </div>
   </section>
