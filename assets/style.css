@@ -256,11 +256,5 @@ html[data-theme="dark"] .callout.danger{background:#2a1113;border-color:#7f1d1d;
 .timeline li{position:relative;padding-left:32px}
 .timeline li::before{counter-increment:step;content:counter(step);position:absolute;left:0;top:0;width:22px;height:22px;border-radius:999px;background:linear-gradient(90deg,var(--brand),var(--accent));color:#fff;font-weight:700;display:grid;place-items:center;font-size:.85rem}
 
-/* make anchored headings visible under sticky header */
+/* anchors visible under sticky header */
 [id]{scroll-margin-top:90px}
-
-/* Optional: nicer printout */
-@media print{
-  .site-header,.site-footer,.btn{display:none!important}
-  .card{box-shadow:none;border:1px solid #ccc}
-}
