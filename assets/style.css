@@ -258,3 +258,27 @@ html[data-theme="dark"] .callout.danger{background:#2a1113;border-color:#7f1d1d;
 
 /* anchors visible under sticky header */
 [id]{scroll-margin-top:90px}
+
+/* --- Sponsors: force small, single-line logos (override generic .card img) --- */
+.card .sponsor-strip{
+  display:flex; align-items:center; gap:24px;
+  flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.card .sponsor-strip::-webkit-scrollbar{ display:none }
+
+/* Cancel the generic .card img sizing for sponsor logos */
+.card .sponsor-strip img{ max-width:none; }
+
+/* Final size for logos */
+.sponsor-logo{
+  height:40px !important;           /* keep them small */
+  width:auto !important;
+  max-width:220px;                   /* safety cap for very wide svgs/pngs */
+  object-fit:contain;
+  flex:0 0 auto; display:block;
+}
+
+/* Optional: if you have a few unusually tall/portrait logos */
+.sponsor-logo.is-tall{ height:34px !important; }
+
