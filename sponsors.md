@@ -12,7 +12,7 @@ permalink: /sponsors/
       <img src="{{ '/assets/Badge.svg' | relative_url }}"
            alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
     </a>
-      <img src="{{ '/assets/IBM_Quantum_Logo.png'| relative_url }}" alt="IBM Quantum" class="sponsor-logo" loading="lazy" width="10" height="40">
+      <img src="{{ '/assets/IBM_Quantum_Logo.png'| relative_url }}" alt="IBM Quantum" class="sponsor-logo" loading="lazy">
       <img src="{{ '/assets/sponsor2.png' | relative_url }}" alt="Sponsor 2" class="sponsor-logo" loading="lazy" width="40" height="40">
       <img src="{{ '/assets/sponsor3.png' | relative_url }}" alt="Sponsor 3" class="sponsor-logo" loading="lazy" width="180" height="40">
     </div>
