@@ -259,34 +259,47 @@ html[data-theme="dark"] .callout.danger{background:#2a1113;border-color:#7f1d1d;
 /* anchors visible under sticky header */
 [id]{scroll-margin-top:90px}
 
-/* === Sponsors — uniform tiles (no HTML changes) === */
-:root{ --logo-w:160px; --logo-h:56px; }
 
-/* neutralize generic .card img sizing inside the strip */
-.card .sponsor-strip img{ max-width:none; }
 
-.sponsor-strip{
-  display:flex; align-items:center; gap:18px;
-  flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch;
-  padding-bottom:6px; scrollbar-width:none;
+
+/* === Sponsors — 4-per-row grid with uniform tiles === */
+:root{
+  --sponsor-tile-h: 72px; /* tweak height once to scale all logos */
 }
-.sponsor-strip::-webkit-scrollbar{ display:none }
 
-/* turn each direct child (a,img,div) into a tile */
-.sponsor-strip > *{
-  width:var(--logo-w); height:var(--logo-h);
-  padding:8px 10px; border:1px solid var(--border); border-radius:12px;
-  background:#fff; display:grid; place-items:center; flex:0 0 auto;
+.sponsor-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0,1fr)); /* 4 in a line */
+  gap:20px;
+  align-items:stretch;
+}
+
+/* responsive columns */
+@media (max-width:1024px){
+  .sponsor-grid{ grid-template-columns:repeat(3, minmax(0,1fr)); }
+}
+@media (max-width:640px){
+  .sponsor-grid{ grid-template-columns:repeat(2, minmax(0,1fr)); }
+}
+
+/* uniform tiles */
+.sponsor-tile{
+  height:var(--sponsor-tile-h);
+  padding:12px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:#fff;
+  display:grid; place-items:center;
   box-shadow:0 2px 8px rgba(15,23,42,.06);
 }
-html[data-theme="dark"] .sponsor-strip > *{ background:#0f1420; }
+html[data-theme="dark"] .sponsor-tile{ background:#0f1420; }
 
-.sponsor-strip > * img{
-  max-width:calc(var(--logo-w) - 20px);
-  max-height:calc(var(--logo-h) - 16px);
+/* fit logos inside tiles without distortion */
+.sponsor-tile img{
+  max-height:calc(var(--sponsor-tile-h) - 24px);
+  max-width:100%;
   width:auto; height:auto; object-fit:contain; display:block;
 }
 
-@media (max-width:620px){
-  :root{ --logo-w:140px; --logo-h:48px; }
-}
+/* neutralize generic .card img sizing inside sponsor area */
+.card .sponsor-grid img{ max-width:100%; }
