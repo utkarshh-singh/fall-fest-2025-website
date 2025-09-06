@@ -28,8 +28,8 @@ title: Home
 
   <p>
     <strong>Qiskit Fall Fest</strong> is a student-run celebration of learning,
-    making, and community in quantum computing. Over one weekend, we bring together curious beginners,
-    builders, and mentors for hands-on workshops and a friendly hackathon powered by IBM Quantum tools
+    making, and community building in quantum computing. Over one weekend, we bring together curious beginners,
+    builders, and mentors for hands-on workshops and a friendly hackathon powered by IBM Quantum
     and the uOttawa community.
   </p>
 
@@ -65,7 +65,7 @@ title: Home
   <p>
     We strive to make Fall Fest welcoming for everyone. Venues are accessible; dietary options will be available
     during the hackathon.
-    All participants agree to follow our <a href="{{ '/code-of-conduct/' | relative_url }}" target="_blank" rel="noopener">Code of Conduct</a>.
+    All participants must agree to follow our <a href="{{ '/code-of-conduct/' | relative_url }}" target="_blank" rel="noopener">Code of Conduct</a>.
   </p>
 
   <h3>Stay in the loop</h3>
