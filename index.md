@@ -74,7 +74,7 @@ title: Home
     <li>Great for recruiting, demos, lab outreach, and finding collaborators.</li>
   </ul>
   <p class="note">
-    Interested in a table? <a href="{{ '/organizers/' | relative_url }}">Contact the organizers</a>.
+    Interested in a table? Contact the <a href="{{ '/organizers/' | relative_url }}">organizers</a>.
   </p>
 </section>
 
