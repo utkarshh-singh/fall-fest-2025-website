@@ -24,6 +24,14 @@ permalink: /sponsors/
         <img src="{{ '/assets/Badge.svg' | relative_url }}"
            alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
+      <a class="sponsor-tile" href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
+        <img src="{{ '/assets/Badge_Dark.svg' | relative_url }}"
+           alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
+      </a>
+      <a class="sponsor-tile" href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
+        <img src="{{ '/assets/Badge.svg' | relative_url }}"
+           alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
+      </a>
 <!--       <img src="{{ '/assets/Badge.svg'| relative_url }}" alt="IBM Quantum" class="sponsor-logo" loading="lazy">
       <img src="{{ '/assets/Badge.svg' | relative_url }}" alt="Qiskit" class="sponsor-logo" loading="lazy">
       <img src="{{ '/assets/Badge_Dark.svg' | relative_url }}" alt="Qiskit" class="sponsor-logo" loading="lazy"> -->
