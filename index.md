@@ -87,7 +87,7 @@ title: Home
   </p>
 </section>
 
-<section class="card narrow" aria-labelledby="sponsor-heading">
+<section class="card" aria-labelledby="sponsor-heading">
   <h2 id="sponsor-heading">Sponsors & Partners</h2>
 
   <div class="sponsor-marquee" aria-label="Sponsor logos">
