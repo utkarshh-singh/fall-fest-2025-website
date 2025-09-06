@@ -14,7 +14,7 @@ permalink: /sponsors/
     </a>
       <img src="{{ '/assets/Badge.svg'| relative_url }}" alt="IBM Quantum" class="sponsor-logo" loading="lazy">
       <img src="{{ '/assets/Badge.svg' | relative_url }}" alt="Qiskit" class="sponsor-logo" loading="lazy">
-      <img src="{{ '/assets/Badge_dark.svg' | relative_url }}" alt="Qiskit" class="sponsor-logo" loading="lazy">
+      <img src="{{ '/assets/Badge_Dark.svg' | relative_url }}" alt="Qiskit" class="sponsor-logo" loading="lazy">
     </div>
 
     <p class="note">Interested in sponsoring? Ping us on Discord.</p>
