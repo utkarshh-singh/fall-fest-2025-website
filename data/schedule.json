@@ -1,0 +1,118 @@
+{
+    "event": "Qiskit Fall Fest 2025 - uOttawa",
+    "days": [
+        {
+            "date": "2025-11-01",
+            "title": "Day 1 \u2013 Workshops + Networking Showcase",
+            "sessions": [
+                {
+                    "time": "09:00-09:30",
+                    "title": "Welcome & Kickoff",
+                    "description": "Intro to Fall Fest, IBM/Qiskit, agenda, housekeeping."
+                },
+                {
+                    "time": "09:30-10:30",
+                    "title": "Quantum 101 (Concepts)",
+                    "description": "Qubits, superposition, entanglement, measurements."
+                },
+                {
+                    "time": "10:30-11:30",
+                    "title": "Qiskit 101 (Hands-On)",
+                    "description": "Build your first circuits, run on simulator, measure states."
+                },
+                {
+                    "time": "11:30-12:30",
+                    "title": "Guided Notebook Activity",
+                    "description": "Quantum coin toss / random number generator."
+                },
+                {
+                    "time": "12:30-13:30",
+                    "title": "Lunch Break",
+                    "description": ""
+                },
+                {
+                    "time": "13:30-14:30",
+                    "title": "Circuits in Action",
+                    "description": "Quantum teleportation / Grover\u2019s search demo."
+                },
+                {
+                    "time": "14:30-15:30",
+                    "title": "Qiskit in Practice (Hands-On)",
+                    "description": "Play with gates, parameters, visualization tools."
+                },
+                {
+                    "time": "15:30-16:15",
+                    "title": "Group Challenge (Mini Activity)",
+                    "description": "Teams build a simple circuit (e.g., entangled states)."
+                },
+                {
+                    "time": "16:15-17:00",
+                    "title": "Wrap-Up & Q&A",
+                    "description": "Recap, pointers for challenge day, open questions."
+                },
+                {
+                    "time": "18:00-20:00",
+                    "title": "Networking & Showcase",
+                    "description": "Booths from research labs, NEXQT presence, industry posters, IBM speaker."
+                }
+            ]
+        },
+        {
+            "date": "2025-11-02",
+            "title": "Day 2 \u2013 Lectures + Setup Support",
+            "sessions": [
+                {
+                    "time": "09:00-09:15",
+                    "title": "Day 1 Recap",
+                    "description": ""
+                },
+                {
+                    "time": "09:15-10:15",
+                    "title": "Quantum Beyond Circuits",
+                    "description": "Overview of other paradigms: photonics, neutral atoms, error correction."
+                },
+                {
+                    "time": "10:15-11:15",
+                    "title": "Talk from NEXQT / Invited Speaker",
+                    "description": "Research & career perspectives."
+                },
+                {
+                    "time": "11:15-12:30",
+                    "title": "Quantum in Action Lecture",
+                    "description": "Real-world applications (health, finance, sustainability)."
+                },
+                {
+                    "time": "12:30-13:15",
+                    "title": "Lunch Break",
+                    "description": ""
+                },
+                {
+                    "time": "13:15-14:00",
+                    "title": "Installation + Setup Support",
+                    "description": "Ensure Qiskit, Python, IBM Quantum, Discord, GitHub accounts are working."
+                },
+                {
+                    "time": "14:00",
+                    "title": "Workshops End",
+                    "description": ""
+                },
+                {
+                    "time": "16:00",
+                    "title": "Challenge Launch",
+                    "description": "Problem statements released. Teams formed, submissions due in 32 hours."
+                }
+            ]
+        },
+        {
+            "date": "2025-11-08",
+            "title": "Award Ceremony",
+            "sessions": [
+                {
+                    "time": "TBD",
+                    "title": "Award Ceremony + Social Event",
+                    "description": "Winner announcements, prize distribution, thank-yous."
+                }
+            ]
+        }
+    ]
+}
