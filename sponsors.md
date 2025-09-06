@@ -8,25 +8,25 @@ permalink: /sponsors/
   <section id="sponsors" class="card">
     <h2>Sponsors & Partners</h2>
     <div class="sponsor-grid" aria-label="Sponsor logos">
-      <a href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
+      <a class="sponsor-tile" href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
         <img src="{{ '/assets/IBM_Quantum_Logo.png' | relative_url }}"
            alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
-      <a href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
+      <a class="sponsor-tile" href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
         <img src="{{ '/assets/IBM_Quantum_Logo.png' | relative_url }}"
            alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
-      <a href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
+      <a class="sponsor-tile" href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
         <img src="{{ '/assets/IBM_Quantum_Logo.png' | relative_url }}"
            alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
-      <a href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
+      <a class="sponsor-tile" href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
         <img src="{{ '/assets/Badge.svg' | relative_url }}"
            alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
-      <img src="{{ '/assets/Badge.svg'| relative_url }}" alt="IBM Quantum" class="sponsor-logo" loading="lazy">
+<!--       <img src="{{ '/assets/Badge.svg'| relative_url }}" alt="IBM Quantum" class="sponsor-logo" loading="lazy">
       <img src="{{ '/assets/Badge.svg' | relative_url }}" alt="Qiskit" class="sponsor-logo" loading="lazy">
-      <img src="{{ '/assets/Badge_Dark.svg' | relative_url }}" alt="Qiskit" class="sponsor-logo" loading="lazy">
+      <img src="{{ '/assets/Badge_Dark.svg' | relative_url }}" alt="Qiskit" class="sponsor-logo" loading="lazy"> -->
     </div>
 
     <p class="note">Interested in sponsoring? Ping us on Discord.</p>
