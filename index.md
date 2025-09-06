@@ -105,8 +105,7 @@ title: Home
       {% endfor %}
     </div>
   </div>
-<!--   <button class="ss-pause" data-paused="false">Pause</button>
-</section> -->
+</section>
 
 
 <section class="card center">
