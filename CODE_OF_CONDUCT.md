@@ -51,7 +51,7 @@ redirect_from:
 <section class="card">
   <h2 id="unacceptable">Unacceptable Behavior</h2>
   <div class="callout danger">
-    <p>Harassment, discrimination, or intimidation in any form will <strong>not</strong> be tolerated. This includes offensive comments, imagery, or behavior related to gender, sexuality, race, religion, disability, or other personal characteristics; disruption of talks, workshops, or hackathon activities; plagiarism or misrepresentation of others’ work; or any violation of university or IBM policies.</p>
+    <p>Harassment, discrimination, or intimidation in any form will <strong>not</strong> be tolerated. This includes offensive comments, imagery, or behaviour related to gender, sexuality, race, religion, disability, or other personal characteristics; disruption of talks, workshops, or hackathon activities; plagiarism or misrepresentation of others’ work; or any violation of university or IBM policies.</p>
   </div>
 </section>
 
@@ -76,12 +76,6 @@ redirect_from:
     <li><strong>Action:</strong> May include a verbal/written warning, removal from the event without refund or prize eligibility, and/or notification to university or IBM representatives.</li>
     <li><strong>Follow-up:</strong> We document incidents and communicate outcomes as appropriate.</li>
   </ol>
-</section>
-
-<section class="card">
-  <h2 id="attribution">Attribution</h2>
-  <p>Adapted from the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a> and IBM/Qiskit community guidelines, tailored for Fall Fest events.</p>
-  <p class="note">Last updated {{ site.time | date: "%b %d, %Y" }}.</p>
 </section>
 
 <p class="center"><a class="btn" href="{{ '/' | relative_url }}">Back to home</a></p>
