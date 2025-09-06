@@ -6,13 +6,13 @@
       <img src="{{ '/assets/IBM_Quantum_Logo.png' | relative_url }}" alt="IBM Quantum">
     </a>
 
-    <div class="sponsor-tile">
+    <a class="sponsor-tile">
       <img src="{{ '/assets/logos/Badge.svg' | relative_url }}" alt="Sponsor 2">
-    </div>
+    </a>
 
-    <div class="sponsor-tile">
+    <a class="sponsor-tile">
       <img src="{{ '/assets/logos/Badge_Dark.svg' | relative_url }}" alt="Sponsor 3">
-    </div>
+    </a>
 
     <!-- add more tiles; the grid will wrap them -->
   </div>
