@@ -259,26 +259,34 @@ html[data-theme="dark"] .callout.danger{background:#2a1113;border-color:#7f1d1d;
 /* anchors visible under sticky header */
 [id]{scroll-margin-top:90px}
 
-/* --- Sponsors: force small, single-line logos (override generic .card img) --- */
-.card .sponsor-strip{
-  display:flex; align-items:center; gap:24px;
-  flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch;
-  scrollbar-width:none;
-}
-.card .sponsor-strip::-webkit-scrollbar{ display:none }
+/* === Sponsors — uniform tiles (no HTML changes) === */
+:root{ --logo-w:160px; --logo-h:56px; }
 
-/* Cancel the generic .card img sizing for sponsor logos */
+/* neutralize generic .card img sizing inside the strip */
 .card .sponsor-strip img{ max-width:none; }
 
-/* Final size for logos */
-.sponsor-logo{
-  height:40px !important;           /* keep them small */
-  width:auto !important;
-  max-width:120px;                   /* safety cap for very wide svgs/pngs */
-  object-fit:contain;
-  flex:0 0 auto; display:block;
+.sponsor-strip{
+  display:flex; align-items:center; gap:18px;
+  flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch;
+  padding-bottom:6px; scrollbar-width:none;
+}
+.sponsor-strip::-webkit-scrollbar{ display:none }
+
+/* turn each direct child (a,img,div) into a tile */
+.sponsor-strip > *{
+  width:var(--logo-w); height:var(--logo-h);
+  padding:8px 10px; border:1px solid var(--border); border-radius:12px;
+  background:#fff; display:grid; place-items:center; flex:0 0 auto;
+  box-shadow:0 2px 8px rgba(15,23,42,.06);
+}
+html[data-theme="dark"] .sponsor-strip > *{ background:#0f1420; }
+
+.sponsor-strip > * img{
+  max-width:calc(var(--logo-w) - 20px);
+  max-height:calc(var(--logo-h) - 16px);
+  width:auto; height:auto; object-fit:contain; display:block;
 }
 
-/* Optional: if you have a few unusually tall/portrait logos */
-.sponsor-logo.is-tall{ height:34px !important; }
-
+@media (max-width:620px){
+  :root{ --logo-w:140px; --logo-h:48px; }
+}
