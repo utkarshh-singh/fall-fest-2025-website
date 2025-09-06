@@ -43,7 +43,7 @@ title: Home
 
   <h3>Who should attend</h3>
   <ul class="keypoints">
-    <li>Curious newcomers with no quantum knowledge. Basic Python skills are a plus!</li>
+    <li>Curious newcomers with no prior quantum knowledge. Basic Python skills are a plus!</li>
     <li>Students in CS/Maths/Physics/Engineering.</li>
     <li>Researchers, educators, hobbyists, and industry friends.</li>
   </ul>
