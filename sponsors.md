@@ -21,7 +21,7 @@ permalink: /sponsors/
            alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
       <a href="https://www.ibm.com/quantum" target="_blank" rel="noopener">
-        <img src="{{ '/assets/IBM_Quantum_Logo.png' | relative_url }}"
+        <img src="{{ '/assets/Badge.svg' | relative_url }}"
            alt="IBM Quantum2" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
       <img src="{{ '/assets/Badge.svg'| relative_url }}" alt="IBM Quantum" class="sponsor-logo" loading="lazy">
