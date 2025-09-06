@@ -43,13 +43,13 @@ title: Home
   <h3>Who should attend</h3>
   <ul class="keypoints">
     <li><strong>New to quantum?</strong> Perfect—no prior experience required. If you can follow Python basics, you’re ready.</li>
-    <li><strong>CS/Math/Physics/Engineering students</strong> looking to explore quantum concepts with practical code.</li>
+    <li><strong>CS/Maths/Physics/Engineering students</strong> looking to explore quantum concepts with practical code.</li>
     <li><strong>Designers, product thinkers, and data folks</strong> who want to help teams craft clear use-cases and demos.</li>
   </ul>
 
   <h3>What you’ll learn</h3>
   <ul class="keypoints">
-    <li>How qubits, gates, and measurement fit into quantum circuits.</li>
+    <li>How qubits, gates, and measurements fit into quantum circuits.</li>
     <li>Running code with <em>Qiskit</em> in notebooks and IBM Quantum Lab; when to use simulators vs. real backends.</li>
     <li>Intro to Quantum Machine Learning and optimization problem framing.</li>
     <li>Collaboration skills: scoping an idea, version control, and presenting a demo.</li>
