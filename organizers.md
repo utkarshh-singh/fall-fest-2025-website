@@ -21,7 +21,7 @@ permalink: /organizers/
         <p class="bio">[Add role/focus]</p>
       </article>
       <article class="person">
-        <img src="{{ '/assets/person-placeholder.svg' | relative_url }}" alt="Seyed Ibrahim Hosseini" loading="lazy">
+        <img src="{{ '/assets/sayed.svg' | relative_url }}" alt="Seyed Ibrahim Hosseini" loading="lazy">
         <h3>Seyed Ibrahim Hosseini</h3>
         <p class="affil">Organizer • uOttawa</p>
         <p class="bio">[Add role/focus]</p>
