@@ -45,7 +45,7 @@ permalink: /learn/
       <h2>💻 Try in your browser (Colab)</h2>
       <ul>
         <li><a href="https://colab.research.google.com/github/mtreinish/qiskit-workshop/blob/master/Workshop.ipynb" target="_blank" rel="noopener">Open Qiskit 101 on Colab</a></li>
-        <li><a href="https://quantum.cloud.ibm.com/docs/guides/online-lab-environments" target="_blank" rel="noopener">Colab install snippet</a> — the docs show the exact <code>%pip install qiskit qiskit-ibm-runtime</code> command.</li>
+        <li><a href="https://quantum.cloud.ibm.com/docs/en/guides/online-lab-environments#google-colab" target="_blank" rel="noopener">Colab install snippet</a> </li>
       </ul>
     </div>
   
