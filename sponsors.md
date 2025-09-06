@@ -7,11 +7,11 @@
     </a>
 
     <a class="sponsor-tile">
-      <img src="{{ '/assets/logos/Badge.svg' | relative_url }}" alt="Sponsor 2">
+      <img src="{{ '/assets/Badge.svg' | relative_url }}" alt="Sponsor 2">
     </a>
 
     <a class="sponsor-tile">
-      <img src="{{ '/assets/logos/Badge_Dark.svg' | relative_url }}" alt="Sponsor 3">
+      <img src="{{ '/assets/Badge_Dark.svg' | relative_url }}" alt="Sponsor 3">
     </a>
 
     <!-- add more tiles; the grid will wrap them -->
