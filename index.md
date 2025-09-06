@@ -44,20 +44,19 @@ title: Home
   <ul class="keypoints">
     <li><strong>New to quantum?</strong> Perfect—no prior experience required. If you can follow Python basics, you’re ready.</li>
     <li><strong>CS/Maths/Physics/Engineering students</strong> looking to explore quantum concepts with practical code.</li>
-    <li><strong>Designers, product thinkers, and data folks</strong> who want to help teams craft clear use-cases and demos.</li>
   </ul>
 
   <h3>What you’ll learn</h3>
   <ul class="keypoints">
     <li>How qubits, gates, and measurements fit into quantum circuits.</li>
-    <li>Running code with <em>Qiskit</em> in notebooks and IBM Quantum Lab; when to use simulators vs. real backends.</li>
+    <li>Running code with <em>Qiskit</em> in notebooks; when to use simulators vs. real backends.</li>
     <li>Intro to Quantum Machine Learning and optimization problem framing.</li>
     <li>Collaboration skills: scoping an idea, version control, and presenting a demo.</li>
   </ul>
 
   <h3>Tools we’ll use</h3>
   <ul class="keypoints">
-    <li>Qiskit (Python), Jupyter/Colab/IBM Quantum Lab.</li>
+    <li>Qiskit (Python), Jupyter/Colab.</li>
     <li>GitHub for projects and submissions.</li>
     <li>Discord for announcements, team-finding, and #helpdesk support.</li>
   </ul>
@@ -65,7 +64,7 @@ title: Home
   <h3>Inclusion & accessibility</h3>
   <p>
     We strive to make Fall Fest welcoming for everyone. Venues are accessible; dietary options will be available
-    during the hackathon. If you need accommodations, let us know in advance or message <strong>#helpdesk</strong> on Discord.
+    during the hackathon.
     All participants agree to follow our <a href="{{ '/code-of-conduct/' | relative_url }}" target="_blank" rel="noopener">Code of Conduct</a>.
   </p>
 
