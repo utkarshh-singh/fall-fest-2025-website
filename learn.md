@@ -47,7 +47,6 @@ permalink: /learn/
         <li><a href="https://colab.research.google.com/github/mtreinish/qiskit-workshop/blob/master/Workshop.ipynb" target="_blank" rel="noopener">Open Qiskit 101 on Colab</a></li>
         <li><a href="https://quantum.cloud.ibm.com/docs/guides/online-lab-environments" target="_blank" rel="noopener">Colab install snippet</a> — the docs show the exact <code>%pip install qiskit qiskit-ibm-runtime</code> command.</li>
       </ul>
-      <p class="note">IBM Quantum Lab isn’t required — we use Google Colab here.</p>
     </div>
   
     <div class="card">
@@ -66,7 +65,6 @@ permalink: /learn/
         <li><a href="[Your YouTube playlist URL]" target="_blank" rel="noopener">Fall Fest workshop replays</a></li>
         <li><a href="{{ '/assets/slides/' | relative_url }}" target="_blank" rel="noopener">Slides folder</a> (PDFs)</li>
       </ul>
-      <p class="note">Replace the links above with your playlist and a slides folder in <code>/assets/slides/</code>.</p>
     </div>
 
     <div class="card">
