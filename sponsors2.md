@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sponsors
-permalink: /sponsors/
+permalink: /sponsors2/
 ---
 
 <section id="sponsors" class="card">
