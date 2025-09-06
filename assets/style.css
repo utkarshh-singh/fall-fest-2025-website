@@ -309,61 +309,49 @@ html[data-theme="dark"] .sponsor-tile{ background:#0f1420; }
 
 
 
-/* --- Sponsor slider layout --- */
+
+/* === Sponsors — CSS-only marquee (uniform tiles, pause on hover) === */
 :root{
-  --ss-gap:16px;
-  --tile-w:180px;  /* tile width desktop */
-  --tile-h:72px;   /* tile height desktop */
+  --mq-gap: 16px;
+  --tile-w: 180px;   /* desktop tile width */
+  --tile-h: 72px;    /* desktop tile height */
+  --mq-speed: 28s;   /* animation duration; increase for slower scroll */
 }
 
-/* keep the card narrower if you prefer */
 .card.narrow{ max-width:960px; margin:20px auto; }
 
-.sponsor-slider{ position:relative; display:flex; align-items:center; gap:10px }
-.ss-viewport{ overflow:hidden; flex:1 1 auto }
-.ss-track{
-  display:flex; gap:var(--ss-gap);
-  scroll-snap-type:x mandatory;
-  scroll-behavior:smooth;
-  padding:2px; /* tiny breathing room for shadow cut-offs */
+.sponsor-marquee{
+  overflow:hidden; position:relative;
 }
+
+.marquee-track{
+  display:flex; gap:var(--mq-gap);
+  width:max-content;                       /* shrink-wrap content */
+  animation: marquee var(--mq-speed) linear infinite;
+  will-change: transform;
+}
+.sponsor-marquee:hover .marquee-track{ animation-play-state: paused; }
+
 .sponsor-tile{
-  flex:0 0 var(--tile-w);
-  height:var(--tile-h);
-  padding:12px;
-  border:1px solid var(--border);
-  border-radius:12px;
-  background:#fff;
-  display:grid; place-items:center;
+  width:var(--tile-w); height:var(--tile-h);
+  padding:12px; border:1px solid var(--border); border-radius:12px;
+  background:#fff; display:grid; place-items:center;
   box-shadow:0 2px 8px rgba(15,23,42,.06);
-  scroll-snap-align:start;
 }
 html[data-theme="dark"] .sponsor-tile{ background:#0f1420; }
 
-/* Fit logos inside each tile */
 .sponsor-tile img{
   max-height:calc(var(--tile-h) - 24px);
-  max-width:100%;
-  width:auto; height:auto; object-fit:contain; display:block;
+  max-width:100%; width:auto; height:auto; object-fit:contain; display:block;
 }
 
-/* Controls */
-.ss-nav, .ss-pause{
-  background:#fff; border:1px solid var(--border);
-  border-radius:10px; padding:6px 10px; cursor:pointer;
-}
-.ss-nav{ font-size:20px; line-height:1 }
-.ss-pause{ font-size:.9rem }
-.ss-nav:hover, .ss-pause:hover{ box-shadow:0 6px 18px rgba(15,23,42,.12) }
-html[data-theme="dark"] .ss-nav, html[data-theme="dark"] .ss-pause{ background:#0f1420; color:var(--text) }
+/* neutralize generic .card img inside this component */
+.card .sponsor-marquee img{ max-width:100%; }
 
-/* Responsive */
-@media (max-width:1024px){
-  :root{ --tile-w:170px; --tile-h:64px; }
-}
-@media (max-width:640px){
-  :root{ --tile-w:160px; --tile-h:56px; }
-}
+@media (max-width:1024px){ :root{ --tile-w:170px; --tile-h:64px; --mq-speed: 26s; } }
+@media (max-width:640px){  :root{ --tile-w:160px; --tile-h:56px; --mq-speed: 24s; } }
 
-/* Neutralize generic image sizing inside this component */
-.card .sponsor-slider img{ max-width:100%; }
+@keyframes marquee{
+  from{ transform: translateX(0); }
+  to  { transform: translateX(calc(-50% - var(--mq-gap))); } /* move by half because we duplicated the list */
+}
