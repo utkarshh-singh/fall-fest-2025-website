@@ -58,7 +58,7 @@ title: Home
   <ul class="keypoints">
     <li>Qiskit (Python), Jupyter/Colab.</li>
     <li>GitHub for projects and submissions.</li>
-    <li>Discord for announcements, team-finding, and #helpdesk support.</li>
+    <li>Discord for announcements, team-finding, and support.</li>
   </ul>
 
   <h3>Inclusion & accessibility</h3>
