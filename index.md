@@ -27,7 +27,7 @@ title: Home
   >
 
   <p>
-    <strong>Qiskit Fall Fest — University of Ottawa</strong> is a student-run celebration of learning,
+    <strong>Qiskit Fall Fest</strong> is a student-run celebration of learning,
     making, and community in quantum computing. Over one weekend, we bring together curious beginners,
     builders, and mentors for hands-on workshops and a friendly hackathon powered by IBM Quantum tools
     and the uOttawa community.
