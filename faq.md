@@ -11,7 +11,7 @@ permalink: /faq/
     <!-- Registration & Eligibility -->
     <details open>
       <summary>Who can register?</summary>
-      <p>Students (undergrad, master’s, PhD) from any university or college. Space permitting, recent grads and professionals may attend workshops; the hackathon is student-focused.</p>
+      <p>Workshops, talks, and the evening expo are open to everyone — students, faculty, alumni, industry folks, and curious beginners. The hackathon is student-focused: to compete for judging and prizes, teams must be made up of currently enrolled students (undergrad or grad). Non-students are welcome to attend sessions and the expo (and may mentor or observe during the hackathon) but aren’t eligible for judging/prizes.</p>
     </details>
     <details>
       <summary>Does it cost anything?</summary>
