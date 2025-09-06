@@ -66,7 +66,7 @@ title: Home
   <p>
     We strive to make Fall Fest welcoming for everyone. Venues are accessible; dietary options will be available
     during the hackathon. If you need accommodations, let us know in advance or message <strong>#helpdesk</strong> on Discord.
-    All participants agree to follow our <a href="{{ '/CODE_OF_CONDUCT.md' | relative_url }}" target="_blank" rel="noopener">Code of Conduct</a>.
+    All participants agree to follow our <a href="{{ '/code-of-conduct/' | relative_url }}" target="_blank" rel="noopener">Code of Conduct</a>.
   </p>
 
   <h3>Stay in the loop</h3>
