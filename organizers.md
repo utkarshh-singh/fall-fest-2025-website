@@ -12,7 +12,7 @@ permalink: /organizers/
         <img src="{{ '/assets/IMG_1347.png' | relative_url }}" alt="Utkarsh Singh" loading="lazy">
         <h3><a href="https://www.linkedin.com/in/utkarsh-singhh/" target="_blank" rel="noopener">Utkarsh Singh</a></h3>
         <p class="affil">Organizer • uOttawa</p>
-        <p class="bio">Quantum ML researcher; Qiskit Advocate.</p>
+        <p class="bio">Quantum ML Researcher; Qiskit Advocate.</p>
       </article>
       <article class="person">
         <img src="{{ '/assets/mrj_headshot.png' | relative_url }}" alt="Mohamed Reda" loading="lazy">
