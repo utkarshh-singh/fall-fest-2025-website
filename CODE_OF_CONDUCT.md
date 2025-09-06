@@ -2,7 +2,12 @@
 layout: default
 title: Code of Conduct
 permalink: /code-of-conduct/
+redirect_from:
+  - /CODE_OF_CONDUCT.md
+  - /CODE_OF_CONDUCT
+  - /code_of_conduct
 ---
+
 
 <section class="coc-hero">
   <h1>Code of Conduct – Qiskit Fall Fest 2025</h1>
