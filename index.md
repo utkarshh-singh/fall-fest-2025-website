@@ -30,7 +30,7 @@ title: Home
     making, and community building. This year, we’re marking 
     <strong>100 years of quantum science</strong> by bringing together curious beginners,
     builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
-    by <strong>IBM Quantum</strong>strong> and the <strong>uOttawa</strong>strong> community.
+    by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
   </p>
 
   <h3>What you’ll do</h3>
