@@ -5,12 +5,12 @@ title: Home
 
 <section class="hero">
   <div class="container hero-inner">
-    <h1>Learn. Build. Quantum.</h1>
+    <h1>Learn. Build. Celebrate Quantum.</h1>
     <p>Join us for a two-day festival of beginner-friendly workshops and a high-energy hackathon — powered by IBM Quantum and the uOttawa community.</p>
     <div class="meta">
       <span class="pill">Nov 1–2, 2025</span>
       <span class="pill">University of Ottawa</span>
-      <span class="pill">Free • Open to all students</span>
+      <span class="pill">Free • Open to everyone</span>
     </div>
   </div>
 </section>
@@ -28,9 +28,10 @@ title: Home
 
   <p>
     <strong>Qiskit Fall Fest</strong> is a student-run celebration of learning,
-    making, and community building in quantum computing. Over one weekend, we bring together curious beginners,
-    builders, and mentors for hands-on workshops and a friendly hackathon powered by IBM Quantum
-    and the uOttawa community.
+    making, and community building in quantum computing. In 2025, we’re marking 
+    <strong>100 years of quantum</strong>, bringing together curious beginners,
+    builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
+    by IBM Quantum and the uOttawa community.
   </p>
 
   <h3>What you’ll do</h3>
@@ -42,16 +43,17 @@ title: Home
 
   <h3>Who should attend</h3>
   <ul class="keypoints">
-    <li><strong>New to quantum?</strong> Perfect—no prior experience required. If you can follow Python basics, you’re ready.</li>
-    <li><strong>CS/Maths/Physics/Engineering students</strong> looking to explore quantum concepts with practical code.</li>
+    <li>Curious newcomers with no quantum knowledge. Basic Python skills are a plus!</li>
+    <li>Students in CS/Maths/Physics/Engineering.</li>
+    <li>Researchers, educators, hobbyists, and industry friends.</li>
   </ul>
 
   <h3>What you’ll learn</h3>
   <ul class="keypoints">
     <li>How qubits, gates, and measurements fit into quantum circuits.</li>
     <li>Running code with <em>Qiskit</em> in notebooks; when to use simulators vs. real backends.</li>
-    <li>Intro to Quantum Machine Learning and optimization problem framing.</li>
-    <li>Collaboration skills: scoping an idea, version control, and presenting a demo.</li>
+    <li>Quantum Computing, Quantum ML, variational algorithms and optimization.</li>
+    <li>Broader quantum science: Photonics based quantum computing, sensing & devices, quantum-safe crypto, history & milestones.</li>
   </ul>
 
   <h3>Tools we’ll use</h3>
@@ -60,20 +62,43 @@ title: Home
     <li>GitHub for projects and submissions.</li>
     <li>Discord for announcements, team-finding, and support.</li>
   </ul>
+</section>
 
-  <h3>Inclusion & accessibility</h3>
+<section class="card">
+  <h2>Evening Expo & Networking</h2>
   <p>
-    We strive to make Fall Fest welcoming for everyone. Venues are accessible; dietary options will be available
-    during the hackathon.
-    All participants must agree to follow our <a href="{{ '/code-of-conduct/' | relative_url }}" target="_blank" rel="noopener">Code of Conduct</a>.
+    We’ll host a casual expo where <strong>companies, clubs, and professors</strong> can bring a banner,
+    share opportunities, and meet participants.
   </p>
-
-  <h3>Stay in the loop</h3>
-  <p>
-    Event updates, team-formation, and mentor Q&A happen on our Discord:
-    <a href="{{ site.discord_url }}" target="_blank" rel="noopener">{{ site.discord_url }}</a>.
-    Check the <a href="#schedule">schedule</a> for the latest timing.
+  <ul class="keypoints">
+    <li>Table space + power (limited); bring a roll-up banner or poster.</li>
+    <li>Great for recruiting, demos, lab outreach, and finding collaborators.</li>
+  </ul>
+  <p class="note">
+    Interested in a table? <a href="{{ '/contact/' | relative_url }}">Contact the organizers</a>.
   </p>
 </section>
+
+<section class="card">
+  <h2>Inclusion & accessibility</h2>
+  <p>
+    We strive to make Fall Fest welcoming for everyone. Venues are accessible; dietary options will be
+    available during the event. All participants must agree to our
+    <a href="{{ '/code-of-conduct/' | relative_url }}">Code of Conduct</a>.
+  </p>
+</section>
+
+<section class="card center">
+  <h2>Stay in the loop</h2>
+  <p>Event updates, team-formation, and mentor Q&A happen on our Discord.</p>
+  <a class="btn" href="{{ '/contact/' | relative_url }}">Join the Discord</a>
+</section>
+
+<!--   <p> -->
+<!--     Event updates, team-formation, and mentor Q&A happen on our Discord: -->
+<!--     <a href="{{ site.discord_url }}" target="_blank" rel="noopener">{{ site.discord_url }}</a>. -->
+<!--     Check the <a href="#schedule">schedule</a> for the latest timing. -->
+<!--   </p> -->
+
 
 </main>
