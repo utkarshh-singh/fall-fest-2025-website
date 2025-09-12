@@ -8,7 +8,7 @@ title: Home
     <h1>Learn. Build. Celebrate Quantum.</h1>
     <p>Join us for a two-day festival of beginner-friendly workshops and a high-energy hackathon — powered by IBM Quantum and the uOttawa community.</p>
     <div class="meta">
-      <span class="pill">Nov 1–2, 2025</span>
+      <span class="pill">Oct 31- Nov 1, 2025</span>
       <span class="pill">University of Ottawa</span>
       <span class="pill">Free • Open to everyone</span>
     </div>
