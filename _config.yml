@@ -11,5 +11,8 @@ markdown: kramdown
 theme: null
 permalink: pretty
 
+# _config.yml
+schedule_mode: "tba"   # change to "live" when the JSON/UI is ready
+
 exclude:
   - archive/old-site/**
