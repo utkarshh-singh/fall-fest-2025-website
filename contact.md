@@ -1,14 +1,76 @@
 ---
 layout: default
-title: Contact
+title: Contact & Venue
 permalink: /contact/
 ---
 
-<main class="container">
-  <section id="contact" class="card center">
+<!--  <main class="container">
+   <section id="contact" class="card center"> 
     <h2>Contact</h2>
     <p>All questions and updates happen on our Discord.</p>
     <a class="btn primary" href="{{ site.discord_url }}" target="_blank" rel="noopener">Join the Discord</a>
     <p class="note">During the event, use <strong>#helpdesk</strong> for quick support.</p>
   </section>
+</main>  -->
+
+
+<main class="container">
+
+  <!-- Contact CTA -->
+  <section class="card center">
+    <h2>Contact</h2>
+    <p>Questions, announcements, and team-forming happen on our Discord.</p>
+    <a class="btn" href="{{ site.discord_url }}" target="_blank" rel="noopener">Join the Discord</a>
+    <p class="note">During the event, use <strong>#helpdesk</strong> for quick support.</p>
+  </section>
+
+  <!-- Venue + Map -->
+  <section class="card">
+    <h2>Venue & map</h2>
+
+    <div class="grid two contact-grid">
+      <!-- Address block -->
+      <div class="card contact-address">
+        <h3>Address</h3>
+        <address>
+          <strong>National Research Council Canada</strong><br>
+          100 Sussex Dr<br>
+          Ottawa, ON K1A 0R6<br>
+          Canada
+        </address>
+
+        <div class="btn-row">
+          <a class="btn"
+             href="https://www.google.com/maps/dir/?api=1&destination=100%20Sussex%20Dr%2C%20Ottawa%2C%20ON%20K1A%200R6"
+             target="_blank" rel="noopener">Directions</a>
+          <a class="btn ghost"
+             href="https://www.google.com/maps/place/100+Sussex+Dr,+Ottawa,+ON+K1A+0R6"
+             target="_blank" rel="noopener">Open in Maps</a>
+        </div>
+
+        <ul class="keypoints">
+          <li><strong>Transit:</strong> Local bus routes stop near Sussex Dr / Global Affairs. Short walk to NRC campus.</li>
+          <li><strong>Parking:</strong> Visitor parking may be available; check on-site signage.</li>
+          <li><strong>Accessibility:</strong> Accessible entrances are signed at the main building.</li>
+        </ul>
+      </div>
+
+      <!-- Map block -->
+      <div class="card contact-map">
+        <div class="map-embed">
+          <iframe
+            title="Map — 100 Sussex Dr, Ottawa"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=100+Sussex+Dr,+Ottawa,+ON+K1A+0R6&output=embed">
+          </iframe>
+        </div>
+        <p class="note center">
+          <a href="https://www.google.com/maps/place/100+Sussex+Dr,+Ottawa,+ON+K1A+0R6"
+             target="_blank" rel="noopener">View larger map</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
 </main>
