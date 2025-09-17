@@ -2,8 +2,8 @@
   url: /schedule/
 - title: Speakers
   url: /speakers/
-- title: Sponsors
-  url: /sponsors/
+# - title: Sponsors
+#   url: /sponsors/
 - title: Call for Sponsors
   url: /sponsorship/
 - title: Organizers
