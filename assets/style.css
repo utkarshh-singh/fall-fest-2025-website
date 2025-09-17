@@ -443,3 +443,66 @@ html[data-theme="dark"] .packages-table tbody tr:nth-child(even){ background:#12
 
 /* Do not print the floating button */
 @media print{ .floating-cta{ display:none !important; } }
+
+
+
+
+/* === Floating Discord CTA: bigger + blue fill (overrides) === */
+:root{
+  /* tweak if you want a different blue */
+  --cta-blue: #2563eb;           /* base blue */
+  --cta-blue-2: #1e40af;         /* hover/pressed */
+}
+
+.floating-cta{
+  /* size */
+  padding: 14px 12px;            /* bigger */
+  gap: 10px;
+  min-height: 140px;             /* a touch taller */
+  border-radius: 16px 0 0 16px;
+
+  /* blue fill */
+  background: linear-gradient(180deg, var(--cta-blue), var(--cta-blue));
+  border-color: transparent;
+  color: #fff;                    /* white text/icon on blue */
+
+  /* polish */
+  text-decoration: none;          /* no underline */
+  box-shadow: 0 14px 30px rgba(2, 6, 23, .26);
+}
+
+/* remove the old accent stripe if it exists */
+.floating-cta::before{ content:none !important; }
+
+.floating-cta .icon{ width:22px; height:22px; }
+.floating-cta .label{
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-decoration: none;          /* ensure no underline on label */
+}
+
+/* hover / focus */
+.floating-cta:hover{
+  transform: translateY(-50%) translateX(-3px);
+  background: linear-gradient(180deg, var(--cta-blue-2), var(--cta-blue-2));
+  box-shadow: 0 18px 40px rgba(2, 6, 23, .32);
+}
+.floating-cta:focus-visible{
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+/* Mobile FAB: keep the same blue, bump size slightly */
+@media (max-width: 640px){
+  .floating-cta{
+    right:16px; bottom:16px; top:auto; transform:none;
+    padding: 14px;
+    border-radius: 999px;
+    min-height: auto;
+  }
+  .floating-cta .label{ display:none; } /* icon-only on mobile */
+}
+
+/* Do not print the floating button */
+@media print{ .floating-cta{ display:none !important; } }
