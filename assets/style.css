@@ -374,3 +374,6 @@ html[data-theme="dark"] .packages-table thead th{ background:#161a24 }
 }
 .packages-table tbody tr:nth-child(even){ background:#f7f8fb }
 html[data-theme="dark"] .packages-table tbody tr:nth-child(even){ background:#121621 }
+
+/* neat spacing for side-by-side buttons */
+.btn-row{ display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
