@@ -381,32 +381,65 @@ html[data-theme="dark"] .packages-table tbody tr:nth-child(even){ background:#12
 
 
 
-/* Floating Discord CTA */
+
+
+/* ===== Floating Discord contact (vertical tab) ===== */
 .floating-cta{
   position: fixed;
-  right: 18px;
+  right: 0;                           /* hug the edge */
   top: 50%;
   transform: translateY(-50%);
   z-index: 1000;
-  display: inline-flex; align-items: center; gap: 8px;
-  /* reuse your .btn/.ghost look; these add subtle lift + visibility */
-  box-shadow: 0 6px 18px rgba(15,23,42,.12);
+
+  display: inline-flex;
+  flex-direction: column;             /* icon over text */
+  align-items: center;
+  gap: 8px;
+
+  background: var(--card);
+  color: var(--text);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-right: none;                 /* flush with edge */
+  border-radius: 12px 0 0 12px;
+  padding: 10px 10px;
+  box-shadow: 0 10px 28px rgba(15,23,42,.16);
   backdrop-filter: saturate(140%) blur(6px);
 }
+
+/* subtle brand accent stripe */
+.floating-cta::before{
+  content:"";
+  position:absolute; left:0; top:8px; bottom:8px; width:4px;
+  border-radius:4px;
+  background: linear-gradient(180deg, var(--brand), var(--accent));
+}
+
+.floating-cta .icon{ width:20px; height:20px }
+.floating-cta .label{
+  font-size: .82rem;
+  font-weight: 600;
+  line-height: 1;
+  writing-mode: vertical-rl;          /* vertical text */
+  text-orientation: mixed;
+  letter-spacing: .02em;
+}
+
 .floating-cta:hover{
   transform: translateY(-50%) translateX(-2px);
-  box-shadow: 0 10px 22px rgba(15,23,42,.16);
+  box-shadow: 0 16px 36px rgba(15,23,42,.20);
 }
 
-/* Keep it tidy on small screens: move to bottom-right */
+/* Compact FAB on small screens so it doesn't block content */
 @media (max-width: 640px){
   .floating-cta{
-    top: auto; bottom: 16px; right: 16px;
-    transform: none;
+    right: 16px; bottom: 16px; top: auto; transform: none;
+    border-right: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 12px;
   }
+  .floating-cta .label{ display:none; }      /* icon-only on mobile */
 }
 
-/* Don’t print the floating button */
-@media print{
-  .floating-cta{ display: none !important; }
-}
+/* Do not print the floating button */
+@media print{ .floating-cta{ display:none !important; } }
