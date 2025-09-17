@@ -23,8 +23,8 @@ permalink: /sponsorship/
     </div -->
 
     <div class="btn-row">
-      <a class="btn" href="{{ '/contact/' | relative_url }}">Become a sponsor</a>
-      <a class="btn ghost" href="#packages">See packages</a>
+      <a class="pill" href="{{ '/contact/' | relative_url }}">Become a sponsor</a>
+      <a class="pill" href="#packages">See packages</a>
     </div>
 
   </div>
