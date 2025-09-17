@@ -355,3 +355,22 @@ html[data-theme="dark"] .sponsor-tile{ background:#0f1420; }
   from{ transform: translateX(0); }
   to  { transform: translateX(calc(-50% - var(--mq-gap))); } /* move by half because we duplicated the list */
 }
+
+/* Sponsorship table polish */
+.packages-table{
+  width:100%; border-collapse:separate; border-spacing:0;
+  border:1px solid var(--border); border-radius:12px; overflow:hidden;
+}
+.packages-table thead th{
+  background:#fff; color:var(--text); text-align:center; font-weight:700;
+  padding:12px 10px; border-bottom:1px solid var(--border);
+}
+html[data-theme="dark"] .packages-table thead th{ background:#161a24 }
+.packages-table td{
+  padding:12px 10px; border-top:1px solid var(--border); text-align:center;
+}
+.packages-table td:first-child{
+  text-align:left; font-weight:600; width:42%;
+}
+.packages-table tbody tr:nth-child(even){ background:#f7f8fb }
+html[data-theme="dark"] .packages-table tbody tr:nth-child(even){ background:#121621 }
