@@ -16,6 +16,6 @@ permalink: /schedule/
   <section class="card center">
     <h2>Schedule</h2>
     <p>To be announced soon.</p>
-    <p class="note">Follow updates on our <a href="{{ '/contact/' | relative_url }}">Discord</a>.</p>
+    <p class="note">Follow updates on our <a href="{{ site.discord_url }}">Discord</a>.</p>
   </section>
 {% endif %}
