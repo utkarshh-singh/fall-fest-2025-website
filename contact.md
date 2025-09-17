@@ -33,25 +33,25 @@ permalink: /contact/
       <div class="card contact-address">
         <h3>Address</h3>
         <address>
-          <strong>National Research Council Canada</strong><br>
-          100 Sussex Dr<br>
-          Ottawa, ON K1A 0R6<br>
+          <strong>Marion Hall — Room 150</strong><br>
+          140 Louis-Pasteur Private <span aria-hidden="true">#</span>6N5<br>
+          Ottawa, ON K1N 9B4<br>
           Canada
         </address>
 
         <div class="btn-row">
           <a class="btn"
-             href="https://www.google.com/maps/dir/?api=1&destination=100%20Sussex%20Dr%2C%20Ottawa%2C%20ON%20K1A%200R6"
+             href="https://www.google.com/maps/dir/?api=1&destination=Marion%20Hall%20Room%20150%2C%20140%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%209B4"
              target="_blank" rel="noopener">Directions</a>
           <a class="btn ghost"
-             href="https://www.google.com/maps/place/100+Sussex+Dr,+Ottawa,+ON+K1A+0R6"
+             href="https://www.google.com/maps/search/?api=1&query=Marion%20Hall%20Room%20150%2C%20140%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%209B4"
              target="_blank" rel="noopener">Open in Maps</a>
         </div>
 
         <ul class="keypoints">
-          <li><strong>Transit:</strong> Local bus routes stop near Sussex Dr / Global Affairs. Short walk to NRC campus.</li>
-          <li><strong>Parking:</strong> Visitor parking may be available; check on-site signage.</li>
-          <li><strong>Accessibility:</strong> Accessible entrances are signed at the main building.</li>
+          <li><strong>Transit:</strong> Bus routes serve the uOttawa campus; short walk to Marion Hall.</li>
+          <li><strong>Parking:</strong> Visitor parking available on/near campus; follow posted signage.</li>
+          <li><strong>Accessibility:</strong> Accessible entrances signed at the building; elevators available.</li>
         </ul>
       </div>
 
@@ -59,14 +59,14 @@ permalink: /contact/
       <div class="card contact-map">
         <div class="map-embed">
           <iframe
-            title="Map — 100 Sussex Dr, Ottawa"
+            title="Map — Marion Hall, Room 150 (uOttawa)"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps?q=100+Sussex+Dr,+Ottawa,+ON+K1A+0R6&output=embed">
+            src="https://www.google.com/maps?q=Marion+Hall+Room+150,+140+Louis-Pasteur+Private,+Ottawa,+ON+K1N+9B4&output=embed">
           </iframe>
         </div>
         <p class="note center">
-          <a href="https://www.google.com/maps/place/100+Sussex+Dr,+Ottawa,+ON+K1A+0R6"
+          <a href="https://www.google.com/maps/search/?api=1&query=Marion%20Hall%20Room%20150%2C%20140%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%209B4"
              target="_blank" rel="noopener">View larger map</a>
         </p>
       </div>
