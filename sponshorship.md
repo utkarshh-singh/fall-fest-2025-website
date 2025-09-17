@@ -142,8 +142,7 @@ permalink: /sponsorship/
       <div class="card">
         <h3>Community support</h3>
         <ul>
-          <li>Coffee & snacks • Venue room naming • Photo/video package</li>
-          <li>Travel micro-grants • Accessibility services</li>
+          <li>Coffee & snacks • Photo/video package</li>
           <li>Swag for welcome kits • Printing & signage</li>
         </ul>
       </div>
