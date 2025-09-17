@@ -1,9 +1,9 @@
 - name: IBM Quantum
   url: https://www.ibm.com/quantum
   logo: /assets/IBM_Quantum_Logo.png
-- name: IBM Quantum
-  url: https://www.ibm.com/quantum
-  logo: /assets/IBM_Quantum_Logo.png
+- name: University of Ottawa
+  url: https://www.uottawa.ca/en
+  logo: /assets/uOttawa_logo.png
 - name: IBM Quantum
   url: https://www.ibm.com/quantum
   logo: /assets/IBM_Quantum_Logo.png
