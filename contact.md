@@ -16,14 +16,6 @@ permalink: /contact/
 
 <main class="container">
 
-  <!-- Contact CTA -->
-  <section class="card center">
-    <h2>Contact</h2>
-    <p>Questions, announcements, and team-forming happen on our Discord.</p>
-    <a class="btn" href="{{ site.discord_url }}" target="_blank" rel="noopener">Join the Discord</a>
-    <p class="note">During the event, use <strong>#helpdesk</strong> for quick support.</p>
-  </section>
-
   <!-- Venue + Map -->
   <section class="card">
     <h2>Venue & map</h2>
@@ -51,7 +43,6 @@ permalink: /contact/
         <ul class="keypoints">
           <li><strong>Transit:</strong> Bus routes serve the uOttawa campus; short walk to Marion Hall.</li>
           <li><strong>Parking:</strong> Visitor parking available on/near campus; follow posted signage.</li>
-          <li><strong>Accessibility:</strong> Accessible entrances signed at the building; elevators available.</li>
         </ul>
       </div>
 
@@ -73,4 +64,11 @@ permalink: /contact/
     </div>
   </section>
 
+   <!-- Contact CTA -->
+  <section class="card center">
+    <h2>Contact</h2>
+    <p>Questions, announcements, and team-forming happen on our Discord.</p>
+    <a class="btn" href="{{ site.discord_url }}" target="_blank" rel="noopener">Join the Discord</a>
+    <p class="note">During the event, use <strong>#helpdesk</strong> for quick support.</p>
+  </section>
 </main>
