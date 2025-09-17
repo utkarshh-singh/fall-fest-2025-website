@@ -17,10 +17,16 @@ permalink: /sponsorship/
       <span class="pill">University of Ottawa</span>
       <span class="pill">Open to everyone</span>
     </div>
-    <div class="cta" style="margin-top:12px">
+<!--     <div class="cta" style="margin-top:12px">
       <a class="btn primary" href="{{ '/contact/' | relative_url }}">Become a sponsor</a>
       <a class="btn" href="#packages">See packages</a>
+    </div -->
+
+    <div class="btn-row">
+      <a class="btn" href="{{ '/contact/' | relative_url }}">Become a sponsor</a>
+      <a class="btn ghost" href="#packages">See packages</a>
     </div>
+
   </div>
 </section>
 
