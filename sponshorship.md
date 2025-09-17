@@ -22,7 +22,7 @@ permalink: /sponsorship/
       <a class="btn" href="#packages">See packages</a>
     </div -->
 
-    <div class="btn-row">
+    <div class="meta">
       <a class="pill" href="{{ '/contact/' | relative_url }}">Become a sponsor</a>
       <a class="pill" href="#packages">See packages</a>
     </div>
