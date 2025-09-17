@@ -18,7 +18,7 @@ permalink: /contact/
 
   <!-- Venue + Map -->
   <section class="card">
-    <h2>Venue & map</h2>
+    <h2>Venue & Map</h2>
 
     <div class="grid two contact-grid">
       <!-- Address block -->
