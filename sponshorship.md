@@ -167,8 +167,8 @@ permalink: /sponsorship/
       <li><strong>Send assets:</strong> vector logo (SVG/AI), short blurb, links, and any job posts.</li>
       <li><strong>Get involved:</strong> nominate mentors/judges, propose a prize, and join our Discord for updates.</li>
     </ol>
-<!--     <a class="btn primary" href="{{ '/contact/' | relative_url }}">Become a sponsor</a>
-  </section> -->
+<!--     <a class="btn primary" href="{{ '/contact/' | relative_url }}">Become a sponsor</a> -->
+  </section> 
 
   <!-- POLICIES -->
   <section class="card">
