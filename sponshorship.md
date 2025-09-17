@@ -156,7 +156,7 @@ permalink: /sponsorship/
   <section class="card">
     <h2>How to sponsor</h2>
     <ol>
-      <li><strong>Reach out:</strong> contact us via <a href="{{ '/contact/' | relative_url }}">the form</a> or email <a href="mailto:[sponsor-email]">[sponsor-email]</a>.</li>
+      <li><strong>Reach out:</strong> contact us via <a href="{{ '/contact/' | relative_url }}">the form</a> or contact one of the organizers.</li>
       <li><strong>Pick a package:</strong> choose a tier or craft a custom plan; we’ll confirm availability (tables, judging slots, etc.).</li>
       <li><strong>Send assets:</strong> vector logo (SVG/AI), short blurb, links, and any job posts.</li>
       <li><strong>Get involved:</strong> nominate mentors/judges, propose a prize, and join our Discord for updates.</li>
