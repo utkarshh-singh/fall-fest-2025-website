@@ -67,51 +67,67 @@ permalink: /sponsorship/
   <!-- WHAT YOU GET / PACKAGES -->
   <section id="packages" class="card">
     <h2>Sponsorship packages</h2>
-    <p>Choose a package or build a custom plan. In-kind contributions (swag, prizes, food) are welcome and may be credited at the closest tier.</p>
-
-  <!-- quick matrix -->
-  <div class="card">
-  <table>
-    <thead>
-      <tr>
-        <th>Benefit</th>
-        <th>Custom<br><small>(min $250)</small></th>
-        <th>Silver<br><small>$500</small></th>
-        <th>Gold<br><small>$1,000</small></th>
-        <th>Platinum<br><small>$3,000</small></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Logo on website & slides</td><td>✓ (size varies)</td><td>✓</td><td>✓ (priority)</td><td>✓ (top tier)</td>
-      </tr>
-      <tr>
-        <td>Social shout-out</td><td>—</td><td>1 post</td><td>2 posts</td><td>3 posts + pinned recap</td>
-      </tr>
-      <tr>
-        <td>Evening expo table</td><td>—</td><td>Shared table</td><td>Dedicated table</td><td>Premium placement</td>
-      </tr>
-      <tr>
-        <td>Resume book (opt-in)</td><td>—</td><td>—</td><td>✓</td><td>✓ + early access</td>
-      </tr>
-      <tr>
-        <td>Mentor or judge seats</td><td>—</td><td>1 mentor</td><td>2 mentors + 1 judge</td><td>4 mentors + 2 judges</td>
-      </tr>
-      <tr>
-        <td>Challenge / prize</td><td>—</td><td>Logo on general prizes</td><td>1 sponsored prize or mini-challenge</td><td>Headline challenge (optional)</td>
-      </tr>
-      <tr>
-        <td>Stage recognition</td><td>—</td><td>Name read at opening</td><td>Logo on stage slide</td><td>Thank-you on stage + short remarks*</td>
-      </tr>
-      <tr>
-        <td>Comms & recruiting</td><td>—</td><td>Job link in Discord</td><td>Jobs post + booth QR</td><td>One dedicated recruiting note to opt-in list</td>
-      </tr>
-    </tbody>
-  </table>
-  <p class="note">*Remarks are brief, non-salesy, and subject to the agenda and Code of Conduct.</p>
-  </div>
-
+    <p>Pick a package that fits, or combine with a custom add-on. In-kind (food, swag, printing) can be credited at the nearest tier.</p>
+  
+    <div class="card">
+    <table class="packages-table">
+      <thead>
+        <tr>
+          <th>Benefit</th>
+          <th>Silver<br><small>$500</small></th>
+          <th>Gold<br><small>$1,000</small></th>
+          <th>Platinum<br><small>$3,000</small></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Logo on website & slides</td>
+          <td>✓ (small)</td>
+          <td>✓ (medium)</td>
+          <td>✓ (large / top tier)</td>
+        </tr>
+        <tr>
+          <td>Social shout-out</td>
+          <td>1 post</td>
+          <td>2 posts</td>
+          <td>3 posts + recap note</td>
+        </tr>
+        <tr>
+          <td>Roll-up banner on site</td>
+          <td>✓ (shared banner zone)</td>
+          <td>✓ (near expo table)</td>
+          <td>✓ (premium placement)</td>
+        </tr>
+        <tr>
+          <td>Evening expo table</td>
+          <td>—</td>
+          <td>✓ Dedicated table</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>20-minute talk (educational, non-sales; agenda permitting)</td>
+          <td>—</td>
+          <td>—</td>
+          <td>✓</td>
+        </tr>
+        <tr>
+          <td>Branded award items (co-branded plaque/swag with prizes)</td>
+          <td>—</td>
+          <td>✓ Included</td>
+          <td>✓ Premium co-branded set</td>
+        </tr>
+        <tr>
+          <td>CV / résumé access (opt-in, on request)</td>
+          <td>—</td>
+          <td>—</td>
+          <td>✓</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">Custom contributions from <strong>$250</strong> are welcome (e.g., food, travel micro-grants, accessibility services, printing, swag). We’ll credit at the closest tier and include appropriate benefits.</p>
+    </div>
   </section>
+
 
   <!-- A LA CARTE -->
   <section class="card">
