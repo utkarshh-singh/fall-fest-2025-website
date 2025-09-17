@@ -58,7 +58,7 @@ permalink: /contact/
         </div>
         <p class="note center">
           <a href="https://www.google.com/maps/search/?api=1&query=Marion%20Hall%20Room%20150%2C%20140%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%209B4"
-             target="_blank" rel="noopener">View larger map</a>
+             target="_blank" rel="noopener"></a>
         </p>
       </div>
     </div>
