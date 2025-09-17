@@ -377,3 +377,36 @@ html[data-theme="dark"] .packages-table tbody tr:nth-child(even){ background:#12
 
 /* neat spacing for side-by-side buttons */
 .btn-row{ display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+
+
+
+
+/* Floating Discord CTA */
+.floating-cta{
+  position: fixed;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  display: inline-flex; align-items: center; gap: 8px;
+  /* reuse your .btn/.ghost look; these add subtle lift + visibility */
+  box-shadow: 0 6px 18px rgba(15,23,42,.12);
+  backdrop-filter: saturate(140%) blur(6px);
+}
+.floating-cta:hover{
+  transform: translateY(-50%) translateX(-2px);
+  box-shadow: 0 10px 22px rgba(15,23,42,.16);
+}
+
+/* Keep it tidy on small screens: move to bottom-right */
+@media (max-width: 640px){
+  .floating-cta{
+    top: auto; bottom: 16px; right: 16px;
+    transform: none;
+  }
+}
+
+/* Don’t print the floating button */
+@media print{
+  .floating-cta{ display: none !important; }
+}
