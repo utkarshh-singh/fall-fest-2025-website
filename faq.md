@@ -100,7 +100,7 @@ permalink: /faq/
     <div class="center" style="margin-top:16px">
       <h3>Still have questions?</h3>
       <p>We’re happy to help.</p>
-      <a class="btn primary" href="{{ '/contact/' | relative_url }}">Go to Contact</a>
+      <a class="btn primary" href="{{ site.discord_url }}">Go to Discord</a>
     </div>
   </section>
 </main>
