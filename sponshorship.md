@@ -23,8 +23,8 @@ permalink: /sponsorship/
     </div -->
 
     <div class="btn-row">
-      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfF1xly8p6rfXzNBol6Zc0ihyqSKKBceBsTojm2oVUG0GOs_A/viewform?usp=dialog" target="_blank" rel="noopener">Become a sponsor</a>
-      <a class="btn" href="#packages">See packages</a>
+      <a class="btn map-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfF1xly8p6rfXzNBol6Zc0ihyqSKKBceBsTojm2oVUG0GOs_A/viewform?usp=dialog" target="_blank" rel="noopener">Become a sponsor</a>
+      <a class="btn map-btn" href="#packages">See packages</a>
     </div>
 
   </div>
