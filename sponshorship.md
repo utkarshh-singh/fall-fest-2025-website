@@ -175,7 +175,7 @@ permalink: /sponsorship/
       <li>All activities follow our <a href="{{ '/code-of-conduct/' | relative_url }}">Code of Conduct</a> and university policies.</li>
       <li>Educational tone: workshops/talks are learning-first (no product pitches).</li>
       <li>Brand use: we’ll follow your logo/brand guidelines; please share a vector file.</li>
-      <li>Data & privacy: resume book is opt-in; we never share attendee emails without consent.</li>
+<!--       <li>Data & privacy: resume book is opt-in; we never share attendee emails without consent.</li> -->
     </ul>
   </section>
 
