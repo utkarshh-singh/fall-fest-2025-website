@@ -111,7 +111,7 @@ permalink: /sponsorship/
           <td>✓ Dedicated table</td>
         </tr>
         <tr>
-          <td>20-minute talk (educational, non-sales; agenda permitting)</td>
+          <td>20-minute talk (educational, non-sales)</td>
           <td>—</td>
           <td>—</td>
           <td>✓</td>
