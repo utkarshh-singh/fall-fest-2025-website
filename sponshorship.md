@@ -100,8 +100,8 @@ permalink: /sponsorship/
         </tr>
         <tr>
           <td>Roll-up banner on site</td>
-          <td>✓ (shared banner zone)</td>
-          <td>✓ (near expo table)</td>
+          <td>-</td>
+          <td>✓ (Banner zone)</td>
           <td>✓ (premium placement)</td>
         </tr>
         <tr>
@@ -119,8 +119,8 @@ permalink: /sponsorship/
         <tr>
           <td>Branded award items (co-branded swag with prizes)</td>
           <td>—</td>
-          <td>✓ Included</td>
-          <td>✓ Premium co-branded set</td>
+          <td>-</td>
+          <td>✓</td>
         </tr>
         <tr>
           <td>CV / résumé access (opt-in, on request)</td>
@@ -162,7 +162,7 @@ permalink: /sponsorship/
   <section class="card">
     <h2>How to sponsor</h2>
     <ol>
-      <li><strong>Reach out:</strong> contact us via <a href="{{ '/contact/' | relative_url }}">the form</a> or contact one of the organizers.</li>
+      <li><strong>Reach out:</strong> contact us via <a href="{{site.sponsor_form_url | default: site.register_url}}">the form</a> or contact one of the organizers.</li>
       <li><strong>Pick a package:</strong> choose a tier or craft a custom plan; we’ll confirm availability (tables, judging slots, etc.).</li>
       <li><strong>Send assets:</strong> vector logo (SVG/AI), short blurb, links, and any job posts.</li>
       <li><strong>Get involved:</strong> nominate mentors/judges, propose a prize, and join our Discord for updates.</li>
