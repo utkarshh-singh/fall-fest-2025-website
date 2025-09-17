@@ -108,7 +108,7 @@ permalink: /sponsorship/
           <td>Evening expo table</td>
           <td>—</td>
           <td>✓ Dedicated table</td>
-          <td>—</td>
+          <td>✓ Dedicated table</td>
         </tr>
         <tr>
           <td>20-minute talk (educational, non-sales; agenda permitting)</td>
