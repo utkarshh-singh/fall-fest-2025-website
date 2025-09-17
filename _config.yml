@@ -4,7 +4,7 @@ url: "https://www.uoquantum.com"     # your GitHub Pages root
 baseurl: ""          # your repo name, with leading slash
 timezone: America/Toronto
 
-register_url: "https://docs.google.com/forms/d/e/1FAIpQLSd3ziJpK8wESMDGdxTIXMOmf0d2b9vnF2qudQzyXPicG2lnkQ/viewform"
+register_url: "https://docs.google.com/forms/d/e/1FAIpQLSfF1xly8p6rfXzNBol6Zc0ihyqSKKBceBsTojm2oVUG0GOs_A/viewform?usp=dialog"
 discord_url:  "[Discord-Invite-URL]"
 
 markdown: kramdown
