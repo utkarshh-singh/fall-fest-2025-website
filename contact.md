@@ -23,7 +23,7 @@ permalink: /contact/
      <div class="grid two contact-grid">
        <!-- Address -->
        <div class="card contact-address">
-         <h3>Address</h3>
+         <h2>Venue & map</h2>
          <address>
            <strong>Marion Hall — Room 150</strong><br>
            140 Louis-Pasteur Private #6N5<br>
