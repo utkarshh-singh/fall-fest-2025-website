@@ -5,7 +5,7 @@ baseurl: ""          # your repo name, with leading slash
 timezone: America/Toronto
 
 register_url: "https://docs.google.com/forms/d/e/1FAIpQLSfF1xly8p6rfXzNBol6Zc0ihyqSKKBceBsTojm2oVUG0GOs_A/viewform?usp=dialog"
-discord_url:  "[Discord-Invite-URL]"
+discord_url:  "https://discord.gg/BFmYtQYQ"
 
 markdown: kramdown
 theme: null
