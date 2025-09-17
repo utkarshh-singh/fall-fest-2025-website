@@ -82,9 +82,9 @@ permalink: /sponsorship/
       <tbody>
         <tr>
           <td>Logo on website & slides</td>
-          <td>✓ (small)</td>
-          <td>✓ (medium)</td>
-          <td>✓ (large / top tier)</td>
+          <td>✓ </td>
+          <td>✓ </td>
+          <td>✓ </td>
         </tr>
         <tr>
           <td>Social shout-out</td>
@@ -111,7 +111,7 @@ permalink: /sponsorship/
           <td>✓</td>
         </tr>
         <tr>
-          <td>Branded award items (co-branded plaque/swag with prizes)</td>
+          <td>Branded award items (co-branded swag with prizes)</td>
           <td>—</td>
           <td>✓ Included</td>
           <td>✓ Premium co-branded set</td>
