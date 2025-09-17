@@ -31,14 +31,24 @@ permalink: /contact/
           Canada
         </address>
 
-        <div class="btn-row">
-          <a class="btn"
-             href="https://www.google.com/maps/dir/?api=1&destination=Marion%20Hall%20Room%20150%2C%20140%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%209B4"
-             target="_blank" rel="noopener">Directions</a>
-          <a class="btn ghost"
-             href="https://www.google.com/maps/search/?api=1&query=Marion%20Hall%20Room%20150%2C%20140%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%209B4"
-             target="_blank" rel="noopener">Open in Maps</a>
-        </div>
+        <div class="btn-row map-actions">
+           <a class="btn map-btn"
+              href="https://www.google.com/maps/dir/?api=1&destination=Marion%20Hall%20Room%20150%2C%20140%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%209B4"
+              target="_blank" rel="noopener">
+             <!-- arrow icon -->
+             <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13 5l7 7l-7 7v-4H4v-6h9V5z"/></svg>
+             <span>Directions</span>
+           </a>
+         
+           <a class="btn ghost map-btn"
+              href="https://www.google.com/maps/search/?api=1&query=Marion%20Hall%20Room%20150%2C%20140%20Louis-Pasteur%20Private%2C%20Ottawa%2C%20ON%20K1N%209B4"
+              target="_blank" rel="noopener">
+             <!-- pin icon -->
+             <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5a2.5 2.5 0 0 1 0 5Z"/></svg>
+             <span>Open in Maps</span>
+           </a>
+         </div>
+
 
         <ul class="keypoints">
           <li><strong>Transit:</strong> Bus routes serve the uOttawa campus; short walk to Marion Hall.</li>
