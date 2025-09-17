@@ -150,7 +150,6 @@ permalink: /sponsorship/
         <h3>Technical engagement</h3>
         <ul>
           <li>API/dataset access for a mini-challenge</li>
-          <li>Mentor office hours (Gold+)</li>
           <li>Lightning talk (Platinum, educational content)</li>
         </ul>
       </div>
