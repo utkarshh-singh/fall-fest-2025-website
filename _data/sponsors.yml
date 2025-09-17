@@ -12,6 +12,6 @@
   url: https://example.com
   logo: /assets/Badge.svg
 
-- name: Sponsor 3
-  url: https://example.com
-  logo: /assets/Badge_Dark.svg
+# - name: Sponsor 3
+#   url: https://example.com
+#   logo: /assets/Badge_Dark.svg
