@@ -28,7 +28,7 @@ permalink: /learn/
       <h2>▶️ Watch (short)</h2>
       <ul>
         <li><a href="https://www.youtube.com/@Qiskit" target="_blank" rel="noopener">Qiskit YouTube channel</a> — concise intros & playlists.</li>
-        <li><a href="https://quantum.cloud.ibm.com/docs/en/tutorials" target="_blank" rel="noopener">Qiskit Tutorials</a> — IBM Quantum Documentation.</li>
+<!--         <li><a href="https://quantum.cloud.ibm.com/docs/en/tutorials" target="_blank" rel="noopener">Qiskit Tutorials</a> — IBM Quantum Documentation.</li> -->
       </ul>
     </div>
   
