@@ -27,10 +27,11 @@ permalink: /organizers/
         <p class="bio">[Add role/focus]</p>
       </article>
       <article class="person">
-        <img src="{{ '/assets/person-placeholder.svg' | relative_url }}" alt="Saner Azar" loading="lazy">
-        <h3>Saner Azar</h3>
+        <img src="{{ '/assets/sa.jpeg' | relative_url }}" alt="Samer Azar" loading="lazy">
+        <h3><a href="https://www.linkedin.com/in/samer-azar-7b7a241b6?originalSubdomain=ca" target="_blank" rel="noopener">Samer Azar</a></h3>
+        <h3>Samer Azar</h3>
         <p class="affil">Organizer • uOttawa</p>
-        <p class="bio">[Add role/focus]</p>
+        <p class="bio">Honors BSc Physics (Biological Option)</p>
       </article>
     </div>
   </section>
