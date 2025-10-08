@@ -80,10 +80,9 @@ permalink: /speakers/
       <article class="person">
         <img src="{{ '/assets/people/hemavathi-santhanam.jpg' | relative_url }}" alt="Hemavathi Santhanam headshot" loading="lazy">
         <h3>Hemavathi Santhanam</h3>
-        <p class="affil">Technical Account Manager (Data & AI), IBM Expert Labs; Qiskit Advocate</p>
+        <p class="affil">IBM Expert Labs (Data & AI); Qiskit Advocate, IBM Quantum Ambassador</p>
         <p class="bio">
-          IBM practitioner and Qiskit Advocate who teaches hands-on intros to quantum computing for students and
-          professionals. 
+          Data Scientist with recognized skills in applying ML techniques, data engineering concepts and algorithm development to solve real-world business problems.
         </p>
         <p class="pill">Workshop: <strong>Quantum 101</strong></p>
       </article>
