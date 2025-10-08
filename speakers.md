@@ -65,7 +65,7 @@ permalink: /speakers/
         <h3>Hemavathi Santhanam</h3>
         <p class="affil">IBM Expert Labs (Data & AI); Qiskit Advocate, IBM Quantum Ambassador</p>
         <p class="bio">
-          Data Scientist with recognized skills in applying ML techniques, data engineering concepts and algorithm development to solve real-world business problems.
+          Data Scientist with recognized skills in applying ML techniques, data engineering concepts and algorithm development to solve real-world business problems. <a href="https://www.linkedin.com/in/hemavathi-santhanam/" target="_blank" rel="noopener">LinkedIn</a>
         </p>
         <p class="pill">Workshop: <strong>Quantum 101</strong></p>
       </article>
