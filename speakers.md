@@ -17,7 +17,7 @@ permalink: /speakers/
       <article class="person">
         <img src="{{ '/assets/people/karimi.jpg' | relative_url }}" alt="Ebrahim Karimi headshot" loading="lazy">
         <h3>Ebrahim Karimi</h3>
-        <p class="affil">Canada Research Chair, Structured Light; University of Ottawa</p>
+        <p class="affil">Canada Research Chair in Structured Waves and Quantum Communication; University of Ottawa and Chapman University</p>
         <p class="bio">
           Optical/quantum physicist leading the Structured Quantum Optics group; recipient of the Rutherford Memorial
           Medal; research spans structured light and quantum communication. <a href="https://www.sqogroup.ca/" target="_blank" rel="noopener">Group site</a>.
@@ -31,8 +31,7 @@ permalink: /speakers/
         <h3>Hang Chi</h3>
         <p class="affil">Canada Research Chair in Quantum Electronic Devices & Circuits; uOttawa</p>
         <p class="bio">
-          Builds quantum electronic devices at topological/superconducting interfaces; focuses on non-reciprocal
-          quantum transport and next-gen memory/logic. 
+          Chi Lab studies (i) magnetic topological interfaces for novel memory & logic with superior performance, and (ii) proximity superconducting devices & circuits towards practical quantum computation. <a href="https://www.creatematerials.org/" target="_blank" rel="noopener">Group site</a> 
         </p>
         <p class="pill">Talk: <strong>Applications of Quantum Mechanics</strong></p>
       </article>
@@ -43,20 +42,19 @@ permalink: /speakers/
         <h3>Jacob Krich</h3>
         <p class="affil">Professor of Physics, University of Ottawa</p>
         <p class="bio">
-          Theorist working on quantum dynamics and materials for photovoltaics; develops open tools for
-          semiconductor & ultrafast spectroscopy modeling. 
+          A theorist interested in improving low-carbon energy sources and energy transfer in organic and biological systems. Research spans photovoltaics and nonlinear optical spectroscopy. <a href="http://www.krichlab.ca/" target="_blank" rel="noopener">Group site</a> 
         </p>
         <p class="pill">Talk: <strong>Quantum for Dummies</strong></p>
       </article>
 
       <!-- Ravi Bhardwaj -->
       <article class="person">
-        <img src="{{ '/assets/people/ravi-bhardwaj.jpg' | relative_url }}" alt="Ravi Bhardwaj headshot" loading="lazy">
+        <img src="{{ '/assets/people/ravi.jpg' | relative_url }}" alt="Ravi Bhardwaj headshot" loading="lazy">
         <h3>Ravi Bhardwaj</h3>
         <p class="affil">Professor of Physics, University of Ottawa</p>
         <p class="bio">
-          Studies ultrafast nonlinear light–matter interaction and attosecond science; tracks electron
-          dynamics in atoms/molecules for imaging and control. 
+          Studies extreme ultrafast photonics and attosecond science; research spans electron
+          dynamics in atoms/molecules for imaging and control, and femtosecond laser-induced material modification. <a href="https://mysite.science.uottawa.ca/rvedula/index.html" target="_blank" rel="noopener">Group site</a>
         </p>
         <p class="pill">Talk: <strong>Quantum at uOttawa</strong></p>
       </article>
