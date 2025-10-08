@@ -25,7 +25,7 @@ permalink: /speakers/
             <!-- home -->
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3.2 3.5 10v10h6v-6h5v6h6V10L12 3.2z"/></svg>
           </a>
-          <a class="icon-btn disabled" href="https://www.linkedin.com/in/ebrahim-karimi-356a461a/" aria-label="LinkedIn" title="LinkedIn">
+          <a class="icon-btn" href="https://www.linkedin.com/in/ebrahim-karimi-356a461a/" aria-label="LinkedIn" title="LinkedIn">
             <!-- LinkedIn -->
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 6.5A2.44 2.44 0 1 1 4.5 4.06 2.44 2.44 0 0 1 6.94 6.5ZM4.75 20.5h4.4V9.5h-4.4ZM13 9.5h-.03c-2 0-3.22 1.38-3.22 3.09v7.91h4.4v-6.63c0-1.65.6-2.78 2.1-2.78 1.14 0 1.82.77 1.82 2.58v6.83h4.4v-7.34c0-3.92-2.1-5.75-4.91-5.75-2.25 0-3.24 1.23-3.76 2.09h-.04Z"/></svg>
           </a>
@@ -45,7 +45,7 @@ permalink: /speakers/
           <a class="icon-btn" href="https://www.creatematerials.org/" target="_blank" rel="noopener" aria-label="Group website">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3.2 3.5 10v10h6v-6h5v6h6V10L12 3.2z"/></svg>
           </a>
-          <a class="icon-btn disabled" href="https://www.linkedin.com/in/creatematerials/" aria-label="LinkedIn" title="LinkedIn">
+          <a class="icon-btn" href="https://www.linkedin.com/in/creatematerials/" aria-label="LinkedIn" title="LinkedIn">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 6.5A2.44 2.44 0 1 1 4.5 4.06 2.44 2.44 0 0 1 6.94 6.5ZM4.75 20.5h4.4V9.5h-4.4ZM13 9.5h-.03c-2 0-3.22 1.38-3.22 3.09v7.91h4.4v-6.63c0-1.65.6-2.78 2.1-2.78 1.14 0 1.82.77 1.82 2.58v6.83h4.4v-7.34c0-3.92-2.1-5.75-4.91-5.75-2.25 0-3.24 1.23-3.76 2.09h-.04Z"/></svg>
           </a>
         </div>
@@ -64,7 +64,7 @@ permalink: /speakers/
           <a class="icon-btn" href="http://www.krichlab.ca/" target="_blank" rel="noopener" aria-label="Group website">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3.2 3.5 10v10h6v-6h5v6h6V10L12 3.2z"/></svg>
           </a>
-          <a class="icon-btn disabled" href="https://www.linkedin.com/in/jacob-krich-66a6a4164/" aria-label="LinkedIn (coming soon)" title="LinkedIn (coming soon)">
+          <a class="icon-btn" href="https://www.linkedin.com/in/jacob-krich-66a6a4164/" aria-label="LinkedIn (coming soon)" title="LinkedIn (coming soon)">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 6.5A2.44 2.44 0 1 1 4.5 4.06 2.44 2.44 0 0 1 6.94 6.5ZM4.75 20.5h4.4V9.5h-4.4ZM13 9.5h-.03c-2 0-3.22 1.38-3.22 3.09v7.91h4.4v-6.63c0-1.65.6-2.78 2.1-2.78 1.14 0 1.82.77 1.82 2.58v6.83h4.4v-7.34c0-3.92-2.1-5.75-4.91-5.75-2.25 0-3.24 1.23-3.76 2.09h-.04Z"/></svg>
           </a>
         </div>
@@ -84,7 +84,7 @@ permalink: /speakers/
           <a class="icon-btn" href="https://mysite.science.uottawa.ca/rvedula/index.html" target="_blank" rel="noopener" aria-label="Group website">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3.2 3.5 10v10h6v-6h5v6h6V10L12 3.2z"/></svg>
           </a>
-          <a class="icon-btn disabled" href="https://www.linkedin.com/in/ravi-bhardwaj-820a3577/" aria-label="LinkedIn (coming soon)" title="LinkedIn (coming soon)">
+          <a class="icon-btn" href="https://www.linkedin.com/in/ravi-bhardwaj-820a3577/" aria-label="LinkedIn (coming soon)" title="LinkedIn (coming soon)">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 6.5A2.44 2.44 0 1 1 4.5 4.06 2.44 2.44 0 0 1 6.94 6.5ZM4.75 20.5h4.4V9.5h-4.4ZM13 9.5h-.03c-2 0-3.22 1.38-3.22 3.09v7.91h4.4v-6.63c0-1.65.6-2.78 2.1-2.78 1.14 0 1.82.77 1.82 2.58v6.83h4.4v-7.34c0-3.92-2.1-5.75-4.91-5.75-2.25 0-3.24 1.23-3.76 2.09h-.04Z"/></svg>
           </a>
         </div>
