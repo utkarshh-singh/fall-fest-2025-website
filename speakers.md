@@ -15,7 +15,7 @@ permalink: /speakers/
 
       <!-- Ebrahim Karimi -->
       <article class="person">
-        <img src="{{ '/assets/people/karimi.jpg' | relative_url }}" alt="Ebrahim Karimi headshot" loading="lazy">
+        <img src="{{ '/assets/people/karimi.webp' | relative_url }}" alt="Ebrahim Karimi headshot" loading="lazy">
         <h3>Ebrahim Karimi</h3>
         <p class="affil">Canada Research Chair in Structured Waves and Quantum Communication; University of Ottawa and Chapman University</p>
         <p class="bio">
@@ -27,7 +27,7 @@ permalink: /speakers/
 
       <!-- Hang Chi -->
       <article class="person">
-        <img src="{{ '/assets/people/hang-chi.jpg' | relative_url }}" alt="Hang Chi headshot" loading="lazy">
+        <img src="{{ '/assets/people/hang-chi.webp' | relative_url }}" alt="Hang Chi headshot" loading="lazy">
         <h3>Hang Chi</h3>
         <p class="affil">Canada Research Chair in Quantum Electronic Devices & Circuits; uOttawa</p>
         <p class="bio">
