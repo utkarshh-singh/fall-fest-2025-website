@@ -93,7 +93,7 @@ permalink: /speakers/
 
       <!-- Hemavathi Santhanam -->
       <article class="person">
-        <img src="{{ '/assets/people/hemavathi-santhanam.jpg' | relative_url }}" alt="Hemavathi Santhanam headshot" loading="lazy">
+        <img src="{{ '/assets/people/hema.webp' | relative_url }}" alt="Hemavathi Santhanam headshot" loading="lazy">
         <h3>Hemavathi Santhanam</h3>
         <p class="affil">IBM Expert Labs (Data & AI); Qiskit Advocate, IBM Quantum Ambassador</p>
         <p class="bio">
