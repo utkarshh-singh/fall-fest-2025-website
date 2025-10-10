@@ -38,6 +38,12 @@ permalink: /organizers/
         <p class="affil">Organizer • uOttawa</p>
         <p class="bio">BSc. (Honours) in Physics & BASc. in Electrical Engineering</p>
       </article>
+      <article class="person">
+        <img src="{{ '/assets/nz.jpg' | relative_url }}" alt="Nazanin Dehghan" loading="lazy">
+        <h3><a href="https://www.linkedin.com/in/nazanin-dehghan-3916771b3/" target="_blank" rel="noopener">Nazanin Dehghan</a></h3>
+        <p class="affil">Organizer • uOttawa</p>
+        <p class="bio">PhD Physics</p>
+      </article>
     </div>
   </section>
 </main>
