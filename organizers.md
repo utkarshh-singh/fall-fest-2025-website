@@ -48,7 +48,7 @@ permalink: /organizers/
         <img src="{{ '/assets/kj.jpg' | relative_url }}" alt="Nazanin Dehghan" loading="lazy">
         <h3><a href="https://www.linkedin.com/in/kushaljay?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">Kushal Jayarathna</a></h3>
         <p class="affil">Organizer • uOttawa</p>
-        <p class="bio">PhD Physics</p>
+        <p class="bio">Second year electrical engineering and physics student</p>
       </article>
     </div>
   </section>
