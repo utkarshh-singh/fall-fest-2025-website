@@ -36,7 +36,7 @@ permalink: /organizers/
         <img src="{{ '/assets/1705670963857.jpeg' | relative_url }}" alt="Daniel Deiros Hernández" loading="lazy">
         <h3><a href="https://www.linkedin.com/in/daniel-deiros-hernandez/" target="_blank" rel="noopener">Daniel Deiros Hernández</a></h3>
         <p class="affil">Organizer • uOttawa</p>
-        <p class="bio">BSc. (Honours) in Physics & BASc. in Electrical Engineering</p>
+        <p class="bio">Undergraduate Student in Physics & Electrical Engineering</p>
       </article>
       <article class="person">
         <img src="{{ '/assets/nz.jpg' | relative_url }}" alt="Nazanin Dehghan" loading="lazy">
