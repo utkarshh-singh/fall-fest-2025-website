@@ -11,6 +11,7 @@ permalink: /schedule/
   </section>
 
   <!-- Only load your schedule code when live -->
+  <script>window.SCHEDULE_URL = "{{ '/data/schedule.json' | relative_url }}";</script>
   <script src="{{ '/assets/schedule.js' | relative_url }}"></script>
 {% else %}
   <section class="card center">
