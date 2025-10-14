@@ -11,7 +11,8 @@ permalink: /schedule/
   <noscript><p class="note">Enable JavaScript to view the schedule.</p></noscript>
 </section>
 
-<!-- Loads the renderer and fetches /data/schedule.json -->
+<!-- Pass an absolute URL so the JS never guesses the path -->
+<script>window.SCHEDULE_URL = '/data/schedule.json';</script>
 <script src="{{ '/assets/schedule.js' | relative_url }}"></script>
 {% else %}
 <section class="card center">
