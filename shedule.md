@@ -50,18 +50,4 @@ permalink: /schedule/
       <tr><td>17:30</td><td>Workshops End</td><td></td></tr>
     </tbody>
   </table>
-
-  <h3 class="day-heading">Awards • Ceremony (Sat, Nov 8)</h3>
-  <table class="schedule-table">
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th>Session</th>
-        <th>Details</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td data-label="Time">TBD</td><td data-label="Session">Award Ceremony + Social Event</td><td data-label="Details">Winner announcements, prizes, thank-yous.</td></tr>
-    </tbody>
-  </table>
 </section>
