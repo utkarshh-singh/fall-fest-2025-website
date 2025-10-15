@@ -4,6 +4,7 @@ title: Schedule
 permalink: /schedule/
 ---
 
+<main class="container">
 <section class="card">
   <h2>Schedule</h2>
 
@@ -51,3 +52,4 @@ permalink: /schedule/
     </tbody>
   </table>
 </section>
+</main>
