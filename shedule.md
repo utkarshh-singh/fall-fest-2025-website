@@ -4,20 +4,34 @@ title: Schedule
 permalink: /schedule/
 ---
 
-{% if site.schedule_mode == "live" %}
 <section class="card">
   <h2>Schedule</h2>
-  <div id="schedule-root" class="schedule"></div>
-  <noscript><p class="note">Enable JavaScript to view the schedule.</p></noscript>
-</section>
 
-<!-- Pass an absolute URL so the JS never guesses the path -->
-<script>window.SCHEDULE_URL = '/data/schedule.json';</script>
-<script src="{{ '/assets/schedule.js' | relative_url }}"></script>
-{% else %}
-<section class="card center">
-  <h2>Schedule</h2>
-  <p>To be announced soon.</p>
-  <p class="note">Follow updates on our <a href="{{ site.discord_url }}">Discord</a>.</p>
+  {% assign days = site.data.schedule.days %}
+  {% if days and days.size > 0 %}
+    {% for day in days %}
+      <h3 class="day-heading">{{ day.title }}</h3>
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in day.slots %}
+            <tr>
+              <td data-label="Time">{{ s.time }}</td>
+              <td data-label="Session">{{ s.title }}</td>
+              <td data-label="Details">{{ s.desc }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endfor %}
+  {% else %}
+    <p>To be announced soon.</p>
+    <p class="note">Follow updates on our <a href="{{ site.discord_url }}">Discord</a>.</p>
+  {% endif %}
 </section>
-{% endif %}
