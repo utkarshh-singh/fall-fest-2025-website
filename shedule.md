@@ -28,7 +28,7 @@ permalink: /schedule/
       <tr><td>13:50–14:10</td><td>Coffee Break</td><td></td></tr>
       <tr><td>14:10–15:00</td><td>Applications / Development of Quantum Devices</td><td>Hang Chi</td></tr>
       <tr><td>15:00–15:50</td><td>Quantum at uOttawa (NEXQT)</td><td>Ravi Bhardwaj</td></tr>
-      <tr><td>18:00–20:00</td><td>Closing Ceremony (Day 1)</td><td></td></tr>
+      <tr><td>15:50–16:30</td><td>Closing Ceremony (Day 1)</td><td></td></tr>
     </tbody>
   </table>
 
