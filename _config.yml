@@ -14,7 +14,7 @@ theme: null
 permalink: pretty
 
 # _config.yml
-schedule_mode: "tba"   # change to "live" when the JSON/UI is ready "tba"
+schedule_mode: "live"   # change to "live" when the JSON/UI is ready "tba"
 
 exclude:
   - archive/old-site/**
