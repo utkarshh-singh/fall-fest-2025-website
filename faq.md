@@ -23,7 +23,7 @@ permalink: /faq/
     </details>
     <details>
       <summary>What’s the date and location?</summary>
-      <p><strong>Nov 1–3, 2025</strong> at <strong>University of Ottawa</strong>. Times are in Eastern Time (ET). Room details will be shared on Discord.</p>
+      <p><strong>Nov 1–2, 2025</strong> at <strong>University of Ottawa</strong>. Times are in Eastern Time (ET). Room details will be shared on Discord/website.</p>
     </details>
     <details>
       <summary>How will I get updates?</summary>
