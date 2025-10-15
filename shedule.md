@@ -31,7 +31,7 @@ permalink: /schedule/
     </tbody>
   </table>
 
-  <h3 class="day-heading">Day 2 • Lectures + Setup Support (Sun, Nov 2)</h3>
+  <h3 class="day-heading">Day 2 (Sun, Nov 2)</h3>
   <table class="schedule-table">
     <thead>
       <tr>
