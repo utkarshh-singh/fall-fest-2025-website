@@ -15,3 +15,7 @@
 - name: IEEE-uOttawa
   url: https://ieeeuottawa.ca/
   logo: /assets/ieee.jpeg
+
+- name: PINQ
+  url: https://www.pinq2.com/en/
+  logo: /assets/pinq.png
