@@ -276,7 +276,7 @@ html[data-theme="dark"] .callout.danger{background:#2a1113;border-color:#7f1d1d;
 
 /* responsive columns */
 @media (max-width:960px){
-  .sponsor-grid{ grid-template-columns:repeat(3, minmax(0,1fr)); }
+  .sponsor-grid{ grid-template-columns:repeat(4, minmax(0,1fr)); }
 }
 @media (max-width:640px){
   .sponsor-grid{ grid-template-columns:repeat(2, minmax(0,1fr)); }
