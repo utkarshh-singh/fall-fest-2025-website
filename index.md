@@ -36,8 +36,8 @@ title: Home
   <h3>What you’ll do</h3>
   <ul class="keypoints">
     <li><strong>Day 1 · Workshops:</strong> learn qubits, circuits, and Qiskit by building small programs and visualizing results.</li>
-    <li><strong>Day 2 · Workshop & Hackathon:</strong> team up to prototype something useful or delightful—QML demos, optimization ideas, or open-ended experiments.</li>
-    <li><strong>Mentor hours:</strong> get guidance on scoping, debugging, and demo storytelling.</li>
+    <li><strong>Day 2 · Workshop & Hackathon:</strong> team up to prototype something useful or delightful—QML demos, optimization ideas, or open-ended experiments on a real quantum device from IBM.</li>
+    <!-- <li><strong>Mentor hours:</strong> get guidance on scoping, debugging, and demo storytelling.</li> -->
   </ul>
 
   <h3>Who should attend</h3>
