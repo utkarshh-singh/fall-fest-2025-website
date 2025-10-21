@@ -17,7 +17,7 @@ permalink: /sponsors/
            alt="University of Ottawa" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
       <a class="sponsor-tile" href="https://www.nexqt.ca/" target="_blank" rel="noopener">
-        <img src="{{ '/assets/NEXQT_Logo2.png' | relative_url }}"
+        <img src="{{ '/assets/NexQT_logo_black.png' | relative_url }}"
            alt="NEXQT" class="sponsor-logo" loading="lazy" decoding="async">
       </a>
       <a class="sponsor-tile" href="https://www.ibm.com/quantum/qiskit" target="_blank" rel="noopener">
