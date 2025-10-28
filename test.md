@@ -4,7 +4,7 @@ title: Home
 permalink: /test/
 ---
 
-<section class="hero">
+<!-- <section class="hero">
   <div class="container hero-inner">
     <h1>Learn. Build. Celebrate Quantum.</h1>
     <p>Join a two-day festival of beginner-friendly workshops and a collaborative hackathon celebrating 100 years of quantum science — powered by IBM Quantum and the uOttawa community.</p>
@@ -14,7 +14,7 @@ permalink: /test/
       <span class="pill">Free • Open to all</span>
     </div>
   </div>
-</section>
+</section> -->
 
 <main class="container">
   <!-- SECTION 1: Hero Banner with Image and Text Overlay -->
