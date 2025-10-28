@@ -127,4 +127,6 @@ permalink: /test/
     <p>Event updates, team formation, and mentor Q&A all happen on Discord.</p>
     <a class="btn" href="{{ '/contact/' | relative_url }}">Join the Discord</a>
   </section>
+
+  <script src="{{ '/assets/js/about.js' | relative_url }}"></script>
 </main>
