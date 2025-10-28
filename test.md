@@ -5,7 +5,7 @@ permalink: /test/
 ---
 
 <section class="hero">
-  <div class="container hero-inner">
+  <!-- <div class="container hero-inner"> -->
     <!-- <h1>Learn. Build. Celebrate Quantum.</h1> -->
     <!-- <p>Join a two-day festival of beginner-friendly workshops and a collaborative hackathon celebrating 100 years of quantum science — powered by IBM Quantum and the uOttawa community.</p> -->
     <!-- <div class="meta">
@@ -13,7 +13,7 @@ permalink: /test/
       <span class="pill">University of Ottawa</span>
       <span class="pill">Free • Open to all</span>
     </div> -->
-  </div>
+  <!-- </div> -->
 </section>
 
 <main class="container">
@@ -51,6 +51,12 @@ permalink: /test/
           <p class="hero-description-alt">
             <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning, making, and community building. This year, we're marking <strong>100 years of quantum science</strong> by bringing together curious beginners, builders, and mentors for hands-on labs, workshops and a friendly hackathon powered by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
           </p>
+        </div>
+        
+        <!-- Navigation Dots -->
+        <div class="hero-dots">
+          <button class="hero-dot active" data-slide="0" aria-label="Show slide 1"></button>
+          <button class="hero-dot" data-slide="1" aria-label="Show slide 2"></button>
         </div>
       </div>
     </div>
@@ -166,6 +172,7 @@ permalink: /test/
       </div>
     </div>
   </section>
+
 
 
 
