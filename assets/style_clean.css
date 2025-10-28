@@ -210,7 +210,7 @@ html[data-theme="dark"] code{ background:#1f2433 }
 
 
 
-/* About Section Modernization */
+/* About Section Styling */
 .about-intro {
   max-width: 800px;
   margin: 0 auto 3rem;
@@ -219,68 +219,123 @@ html[data-theme="dark"] code{ background:#1f2433 }
   line-height: 1.7;
 }
 
-.info-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin-top: 2.5rem;
+/* Tabbed Interface */
+.info-tabs {
+  margin-top: 2rem;
 }
 
-.info-block {
-  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 16px;
-  padding: 2rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.tab-nav {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
-.info-block:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-  border-color: rgba(255,255,255,0.2);
-}
-
-.info-block-header {
+.tab-btn {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 1.25rem;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
-.info-block-header .icon {
-  font-size: 2rem;
-  line-height: 1;
-  flex-shrink: 0;
+.tab-btn:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.05);
 }
 
-.info-block h3 {
-  margin: 0;
+.tab-btn.active {
+  color: #fff;
+  border-bottom-color: #6366f1; /* Adjust to match your brand color */
+}
+
+.tab-icon {
   font-size: 1.25rem;
-  font-weight: 600;
+  line-height: 1;
 }
 
-.info-block .keypoints {
+.tab-label {
+  font-size: 0.95rem;
+}
+
+.tab-content-wrapper {
+  padding: 2rem 1.5rem;
+  min-height: 200px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 0 0 12px 12px;
+}
+
+.tab-content {
+  display: none;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tab-content .keypoints {
   margin: 0;
-  padding-left: 1.25rem;
+  padding-left: 1.5rem;
+  max-width: 900px;
 }
 
-.info-block .keypoints li {
-  margin-bottom: 0.875rem;
-  line-height: 1.6;
+.tab-content .keypoints li {
+  margin-bottom: 1rem;
+  line-height: 1.7;
 }
 
-.info-block .keypoints li:last-child {
+.tab-content .keypoints li:last-child {
   margin-bottom: 0;
 }
 
-/* Responsive adjustments */
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
-  .info-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+  .tab-btn {
+    padding: 0.875rem 1rem;
+    font-size: 0.875rem;
   }
   
-  .info-block {
-    padding: 1.5rem;
+  .tab-icon {
+    font-size: 1.1rem;
+  }
+  
+  .tab-label {
+    font-size: 0.875rem;
+  }
+  
+  .tab-content-wrapper {
+    padding: 1.5rem 1rem;
+  }
+}
+
+/* Hide tab labels on very small screens */
+@media (max-width: 480px) {
+  .tab-label {
+    display: none;
+  }
+  
+  .tab-btn {
+    padding: 1rem;
   }
 }
