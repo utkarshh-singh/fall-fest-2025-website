@@ -1,4 +1,51 @@
 /* ============================================
+   FORCE WIDTH MATCHING
+   ============================================ */
+
+/* Make hero section container match the site's standard container */
+.hero-content {
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+}
+
+/* Override the global .container for the cards section */
+.content-cards-section .container {
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+/* ============================================
+   SECTION 1: HERO BANNER WITH ANIMATED TEXT
+   ============================================ */
+
+.hero-banner-section {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.hero-banner-container {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden;
+  border-radius: 0 0 16px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================
    SECTION 1: HERO BANNER WITH ANIMATED TEXT
    ============================================ */
 
