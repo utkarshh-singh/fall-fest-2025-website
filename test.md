@@ -18,77 +18,81 @@ permalink: /test/
 
 <main class="container">
   <section id="about" class="card">
-  <img
-    src="{{ '/assets/Full_Illustration.png' | relative_url }}"
-    alt="Illustration celebrating quantum ideas and pioneers"
-    class="about-banner"
-    loading="eager"
-    decoding="async"
-  >
-
-  <div class="about-intro">
-    <p>
-      <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
-      making, and community building. This year, we're marking 
-      <strong>100 years of quantum science</strong> by bringing together curious beginners,
-      builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
-      by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
-    </p>
-  </div>
-
-  <!-- Grid Layout for Info Blocks -->
-  <div class="info-grid">
-    
-    <div class="info-block">
-      <div class="info-block-header">
-        <span class="icon">🚀</span>
-        <h3>What you'll do</h3>
-      </div>
-      <ul class="keypoints">
-        <li><strong>Day 1 · Workshops:</strong> learn qubits, circuits, and Qiskit by building small programs and visualizing results.</li>
-        <li><strong>Day 2 · Workshop & Hackathon:</strong> team up to prototype something useful or delightful—QML demos, optimization ideas, or open-ended experiments on a real quantum device from IBM.</li>
-      </ul>
+    <img
+      src="{{ '/assets/Full_Illustration.png' | relative_url }}"
+      alt="Illustration celebrating quantum ideas and pioneers"
+      class="about-banner"
+      loading="eager"
+      decoding="async"
+    >
+  
+    <div class="about-intro">
+      <p>
+        <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
+        making, and community building. This year, we're marking 
+        <strong>100 years of quantum science</strong> by bringing together curious beginners,
+        builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
+        by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
+      </p>
     </div>
-
-    <div class="info-block">
-      <div class="info-block-header">
-        <span class="icon">👥</span>
-        <h3>Who should attend</h3>
+  
+    <!-- Tabbed Navigation -->
+    <div class="info-tabs">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="tab1">
+          <span class="tab-icon">🚀</span>
+          <span class="tab-label">What you'll do</span>
+        </button>
+        <button class="tab-btn" data-tab="tab2">
+          <span class="tab-icon">👥</span>
+          <span class="tab-label">Who should attend</span>
+        </button>
+        <button class="tab-btn" data-tab="tab3">
+          <span class="tab-icon">📚</span>
+          <span class="tab-label">What you'll learn</span>
+        </button>
+        <button class="tab-btn" data-tab="tab4">
+          <span class="tab-icon">🛠️</span>
+          <span class="tab-label">Tools we'll use</span>
+        </button>
       </div>
-      <ul class="keypoints">
-        <li>Curious newcomers with no prior quantum knowledge. Basic Python skills are a plus!</li>
-        <li>Students in CS/Maths/Physics/Engineering.</li>
-        <li>Researchers, educators, hobbyists, and industry friends.</li>
-      </ul>
-    </div>
-
-    <div class="info-block">
-      <div class="info-block-header">
-        <span class="icon">📚</span>
-        <h3>What you'll learn</h3>
+  
+      <div class="tab-content-wrapper">
+        <div id="tab1" class="tab-content active">
+          <ul class="keypoints">
+            <li><strong>Day 1 · Workshops:</strong> learn qubits, circuits, and Qiskit by building small programs and visualizing results.</li>
+            <li><strong>Day 2 · Workshop & Hackathon:</strong> team up to prototype something useful or delightful—QML demos, optimization ideas, or open-ended experiments on a real quantum device from IBM.</li>
+          </ul>
+        </div>
+  
+        <div id="tab2" class="tab-content">
+          <ul class="keypoints">
+            <li>Curious newcomers with no prior quantum knowledge. Basic Python skills are a plus!</li>
+            <li>Students in CS/Maths/Physics/Engineering.</li>
+            <li>Researchers, educators, hobbyists, and industry friends.</li>
+          </ul>
+        </div>
+  
+        <div id="tab3" class="tab-content">
+          <ul class="keypoints">
+            <li>How qubits, gates, and measurements fit into quantum circuits.</li>
+            <li>Running code with <em>Qiskit</em> in notebooks; when to use simulators vs. real backends.</li>
+            <li>Quantum Computing, Quantum ML, variational algorithms and optimization.</li>
+            <li>Broader quantum science: Photonics based quantum computing, sensing & devices, quantum-safe crypto, history & milestones.</li>
+          </ul>
+        </div>
+  
+        <div id="tab4" class="tab-content">
+          <ul class="keypoints">
+            <li>Qiskit (Python), Jupyter/Colab.</li>
+            <li>GitHub for projects and submissions.</li>
+            <li>Discord for announcements, team-finding, and support.</li>
+          </ul>
+        </div>
       </div>
-      <ul class="keypoints">
-        <li>How qubits, gates, and measurements fit into quantum circuits.</li>
-        <li>Running code with <em>Qiskit</em> in notebooks; when to use simulators vs. real backends.</li>
-        <li>Quantum Computing, Quantum ML, variational algorithms and optimization.</li>
-        <li>Broader quantum science: Photonics based quantum computing, sensing & devices, quantum-safe crypto, history & milestones.</li>
-      </ul>
     </div>
+  </section>
 
-    <div class="info-block">
-      <div class="info-block-header">
-        <span class="icon">🛠️</span>
-        <h3>Tools we'll use</h3>
-      </div>
-      <ul class="keypoints">
-        <li>Qiskit (Python), Jupyter/Colab.</li>
-        <li>GitHub for projects and submissions.</li>
-        <li>Discord for announcements, team-finding, and support.</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
 
   <section class="card">
     <h2>Inclusion & accessibility</h2>
