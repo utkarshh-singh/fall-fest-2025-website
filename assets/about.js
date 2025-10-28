@@ -1,31 +1,55 @@
-// Wait for DOM to fully load
 document.addEventListener('DOMContentLoaded', function() {
-  const tabBtns = document.querySelectorAll('.tab-btn');
-  const tabContents = document.querySelectorAll('.tab-content');
-
-  // Check if elements exist
-  if (tabBtns.length === 0) {
-    console.error('No tab buttons found');
+  const accordionHeaders = document.querySelectorAll('.accordion-header');
+  
+  // Check if accordion elements exist
+  if (accordionHeaders.length === 0) {
+    console.error('No accordion headers found');
     return;
   }
 
-  tabBtns.forEach(btn => {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault(); // Prevent default button behavior
+  accordionHeaders.forEach(header => {
+    header.addEventListener('click', function(e) {
+      e.preventDefault();
       
-      const targetTab = this.getAttribute('data-tab');
-      console.log('Clicked tab:', targetTab); // Debug log
+      const targetId = this.getAttribute('data-accordion');
+      const targetBody = document.getElementById(targetId);
       
-      // Remove active class from all buttons and contents
-      tabBtns.forEach(b => b.classList.remove('active'));
-      tabContents.forEach(c => c.classList.remove('active'));
+      console.log('Clicked accordion:', targetId); // Debug log
       
-      // Add active class to clicked button and corresponding content
-      this.classList.add('active');
-      const targetContent = document.getElementById(targetTab);
-      if (targetContent) {
-        targetContent.classList.add('active');
+      // Toggle active state for header
+      this.classList.toggle('active');
+      
+      // Toggle active state for body
+      if (targetBody) {
+        targetBody.classList.toggle('active');
       }
+      
+      // Optional: Close other accordions (uncomment if you want only one open at a time)
+      /*
+      accordionHeaders.forEach(otherHeader => {
+        if (otherHeader !== this) {
+          otherHeader.classList.remove('active');
+          const otherId = otherHeader.getAttribute('data-accordion');
+          const otherBody = document.getElementById(otherId);
+          if (otherBody) {
+            otherBody.classList.remove('active');
+          }
+        }
+      });
+      */
     });
   });
+  
+  // Optional: Open first accordion by default
+  // Uncomment these lines if you want the first section open on page load
+  /*
+  if (accordionHeaders.length > 0) {
+    accordionHeaders[0].classList.add('active');
+    const firstId = accordionHeaders[0].getAttribute('data-accordion');
+    const firstBody = document.getElementById(firstId);
+    if (firstBody) {
+      firstBody.classList.add('active');
+    }
+  }
+  */
 });
