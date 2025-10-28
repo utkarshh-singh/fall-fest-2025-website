@@ -17,7 +17,7 @@ permalink: /test/
 </section> -->
 
 <main class="container">
-  <!-- SECTION 1: Hero Banner with Image and Text Overlay -->
+  <!-- SECTION 1: Hero Banner with Animated Text Overlay -->
   <section class="hero-banner-section">
     <div class="hero-banner-container">
       <img
@@ -31,9 +31,10 @@ permalink: /test/
       <!-- Gradient overlay for better text readability -->
       <div class="hero-overlay"></div>
       
-      <!-- Text content on the image -->
+      <!-- Animated Text Content -->
       <div class="hero-content">
-        <div class="hero-primary-text">
+        <!-- Text 1 - Will fade in/out -->
+        <div class="hero-text-block text-block-1 active">
           <h1>Learn. Build. Celebrate Quantum.</h1>
           <p class="hero-description">
             Join a two-day festival of beginner-friendly workshops and a collaborative hackathon celebrating 100 years of quantum science — powered by IBM Quantum and the uOttawa community.
@@ -45,15 +46,11 @@ permalink: /test/
           </div>
         </div>
         
-        <div class="hero-secondary-text">
-          <p>
+        <!-- Text 2 - Will fade in/out -->
+        <div class="hero-text-block text-block-2">
+          <p class="hero-description-alt">
             <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning, making, and community building. This year, we're marking <strong>100 years of quantum science</strong> by bringing together curious beginners, builders, and mentors for hands-on labs, workshops and a friendly hackathon powered by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
           </p>
-          <div class="hero-meta">
-            <span class="meta-pill">Nov 1–2, 2025</span>
-            <span class="meta-pill">University of Ottawa</span>
-            <span class="meta-pill">Free • Open to all</span>
-          </div>
         </div>
       </div>
     </div>
@@ -169,6 +166,7 @@ permalink: /test/
       </div>
     </div>
   </section>
+
 
 
 
