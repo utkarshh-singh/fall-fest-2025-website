@@ -17,29 +17,33 @@ permalink: /test/
 </section>
 
 <main class="container">
-  <section id="about" class="card">
-    <!-- Image container with overlay -->
-    <div class="about-banner-container">
-      <img
-        src="{{ '/assets/Full_Illustration.png' | relative_url }}"
-        alt="Illustration celebrating quantum ideas and pioneers"
-        class="about-banner"
-        loading="eager"
-        decoding="async"
-      >
-      <div class="banner-overlay"></div>
-      <div class="banner-text">
-        <p>
-          <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
-          making, and community building. This year, we're marking 
-          <strong>100 years of quantum science</strong> by bringing together curious beginners,
-          builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
-          by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
-        </p>
+  <section id="about" class="card about-section">
+    <div class="split-container">
+      <!-- Left side - Image -->
+      <div class="split-image">
+        <img
+          src="{{ '/assets/Full_Illustration.png' | relative_url }}"
+          alt="Illustration celebrating quantum ideas and pioneers"
+          loading="eager"
+          decoding="async"
+        >
+      </div>
+      
+      <!-- Right side - Text content -->
+      <div class="split-content">
+        <div class="intro-text">
+          <p>
+            <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
+            making, and community building. This year, we're marking 
+            <strong>100 years of quantum science</strong> by bringing together curious beginners,
+            builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
+            by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
+          </p>
+        </div>
       </div>
     </div>
   
-    <!-- Tabbed Navigation -->
+    <!-- Tabbed Navigation below the split section -->
     <div class="info-tabs">
       <div class="tab-nav">
         <button class="tab-btn active" data-tab="tab1">
@@ -95,6 +99,7 @@ permalink: /test/
       </div>
     </div>
   </section>
+
 
 
 
