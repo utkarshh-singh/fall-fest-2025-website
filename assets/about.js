@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   const textBlocks = document.querySelectorAll('.hero-text-block');
   let currentBlock = 0;
-  const rotationInterval = 6000; // 6 seconds per text block
+  const rotationInterval = 3000; // 6 seconds per text block
   
   function rotateText() {
     // Remove active class from current block
