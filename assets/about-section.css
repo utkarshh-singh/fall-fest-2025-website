@@ -1,146 +1,195 @@
 /* ============================================
-   OPTION 1: SPLIT-SCREEN LAYOUT (RECOMMENDED)
+   SECTION 1: HERO BANNER WITH TEXT OVERLAY
    ============================================ */
 
-/* About Section Container */
-.about-section {
-  padding: 0;
-  overflow: hidden;
+.hero-banner-section {
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
-/* Split Screen Layout */
-.split-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0;
-  align-items: center;
-  min-height: 450px;
-}
-
-.split-image {
+.hero-banner-container {
   position: relative;
+  width: 100%;
+  min-height: 500px;
   overflow: hidden;
-  height: 100%;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 0 0 16px 16px;
 }
 
-.split-image img {
+.hero-background-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  min-height: 500px;
 }
 
-.split-content {
-  padding: 3rem 3.5rem;
+/* Gradient overlay for text readability */
+.hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 65%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.65) 40%,
+    rgba(0, 0, 0, 0.3) 70%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+/* Text content positioned at bottom left */
+.hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3rem;
+  color: white;
+  z-index: 2;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.hero-primary-text {
+  margin-bottom: 2rem;
+}
+
+.hero-primary-text h1 {
+  font-size: 2.75rem;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  line-height: 1.2;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin: 0 0 1.25rem 0;
+  max-width: 900px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.meta-pill {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero-secondary-text {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  max-width: 1000px;
+}
+
+.hero-secondary-text p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin: 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+
+.hero-secondary-text strong {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* ============================================
+   SECTION 2: INTERACTIVE CONTENT CARDS
+   ============================================ */
+
+.content-cards-section {
+  padding: 3rem 1.5rem;
+  background: #f8f9fa;
+}
+
+.content-cards-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tab Navigation Buttons */
+.card-tabs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card-tab-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
-}
-
-.intro-text {
-  max-width: 540px;
-}
-
-.intro-text p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin: 0;
-  color: #2c3e50;
-}
-
-.intro-text strong {
-  color: #000;
-  font-weight: 700;
-}
-
-/* Tabs Section (Common for all options) */
-.info-tabs {
-  margin-top: 3rem;
-  padding: 0 2rem 2rem;
-}
-
-.tab-nav {
-  display: flex;
-  gap: 0.5rem;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-}
-
-.tab-nav::-webkit-scrollbar {
-  height: 4px;
-}
-
-.tab-nav::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.05);
-}
-
-.tab-nav::-webkit-scrollbar-thumb {
-  background: rgba(99, 102, 241, 0.3);
-  border-radius: 2px;
-}
-
-.tab-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 1rem 1.5rem;
-  background: transparent;
-  border: none;
-  border-bottom: 3px solid transparent;
+  gap: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease;
-  white-space: nowrap;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 0.95rem;
-  font-weight: 500;
   font-family: inherit;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
-.tab-btn:hover {
-  color: rgba(0, 0, 0, 0.9);
-  background: rgba(99, 102, 241, 0.05);
+.card-tab-btn:hover {
+  border-color: #a5b4fc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.15);
+  background: #f8f9ff;
 }
 
-.tab-btn.active {
-  color: #000;
-  border-bottom-color: #6366f1;
-  background: rgba(99, 102, 241, 0.1);
+.card-tab-btn.active {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  border-color: #6366f1;
+  color: white;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
 }
 
-.tab-icon {
-  font-size: 1.25rem;
+.card-tab-btn .tab-icon {
+  font-size: 1.75rem;
   line-height: 1;
 }
 
-.tab-label {
-  font-size: 0.95rem;
+.card-tab-btn .tab-text {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.tab-content-wrapper {
-  padding: 2rem 0;
-  min-height: 200px;
+/* Card Content Areas */
+.cards-content {
+  position: relative;
+  min-height: 300px;
 }
 
-.tab-content {
+.content-card {
   display: none;
-  animation: fadeIn 0.3s ease-in;
+  animation: fadeSlideIn 0.4s ease-out;
 }
 
-.tab-content.active {
+.content-card.active {
   display: block;
 }
 
-@keyframes fadeIn {
+@keyframes fadeSlideIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -148,364 +197,197 @@
   }
 }
 
-.tab-content .keypoints {
+.card-inner {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+/* Improved List Styling */
+.styled-list {
+  list-style: none;
+  padding: 0;
   margin: 0;
+  display: grid;
+  gap: 1.75rem;
+}
+
+.styled-list li {
+  position: relative;
   padding-left: 1.5rem;
-  max-width: 900px;
 }
 
-.tab-content .keypoints li {
-  margin-bottom: 1rem;
+.styled-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.list-marker {
+  display: block;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.styled-list li p {
+  margin: 0;
+  font-size: 1rem;
   line-height: 1.7;
-  color: #2c3e50;
+  color: #4b5563;
 }
 
-.tab-content .keypoints li:last-child {
-  margin-bottom: 0;
-}
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
 
-/* Mobile Responsiveness for Option 1 */
+/* Tablet */
 @media (max-width: 968px) {
-  .split-container {
-    grid-template-columns: 1fr;
+  .hero-banner-container {
+    min-height: 450px;
   }
   
-  .split-image {
-    height: 300px;
-    min-height: 300px;
+  .hero-background-image {
+    min-height: 450px;
   }
   
-  .split-content {
-    padding: 2rem 1.5rem;
+  .hero-content {
+    padding: 2rem;
   }
   
-  .intro-text p {
-    font-size: 1rem;
-    line-height: 1.7;
+  .hero-primary-text h1 {
+    font-size: 2.25rem;
   }
   
-  .info-tabs {
-    padding: 0 1rem 1rem;
-    margin-top: 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .tab-btn {
-    padding: 0.875rem 1rem;
-    font-size: 0.875rem;
-  }
-  
-  .tab-icon {
+  .hero-description {
     font-size: 1.1rem;
   }
   
-  .tab-label {
-    font-size: 0.875rem;
+  .hero-secondary-text p {
+    font-size: 1rem;
   }
   
-  .tab-content-wrapper {
-    padding: 1.5rem 0;
+  .card-tabs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .card-inner {
+    padding: 2rem;
   }
 }
 
-@media (max-width: 480px) {
-  .tab-label {
-    display: none;
+/* Mobile */
+@media (max-width: 640px) {
+  .hero-banner-container {
+    min-height: 550px;
+    border-radius: 0;
   }
   
-  .tab-btn {
-    padding: 1rem;
+  .hero-background-image {
+    min-height: 550px;
   }
   
-  .split-content {
-    padding: 1.5rem 1rem;
+  .hero-content {
+    padding: 1.5rem;
   }
   
-  .intro-text p {
+  .hero-primary-text {
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-primary-text h1 {
+    font-size: 1.75rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+  }
+  
+  .meta-pill {
+    font-size: 0.875rem;
+    padding: 0.4rem 0.8rem;
+  }
+  
+  .hero-secondary-text {
+    padding-top: 1.5rem;
+  }
+  
+  .hero-secondary-text p {
     font-size: 0.95rem;
   }
   
-  .split-image {
-    height: 250px;
-    min-height: 250px;
-  }
-}
-
-
-/* ============================================
-   OPTION 2: CARD-BASED GRID LAYOUT
-   ============================================ */
-
-/* Use this if you choose Option 2 instead */
-
-.about-header {
-  text-align: center;
-  padding: 2rem 3rem;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-radius: 12px 12px 0 0;
-}
-
-.about-header .intro-text {
-  font-size: 1.15rem;
-  line-height: 1.8;
-  margin: 0 auto;
-  max-width: 900px;
-  color: #2c3e50;
-}
-
-.about-header .intro-text strong {
-  color: #000;
-  font-weight: 700;
-}
-
-.banner-wrapper {
-  margin: 2rem 0;
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.about-banner {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* 2x2 Grid Layout */
-.info-grid-modern {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-  padding: 0 1rem 1rem;
-}
-
-.info-card {
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 12px;
-  padding: 1.75rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-}
-
-.info-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  border-color: rgba(99, 102, 241, 0.3);
-}
-
-.card-header {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 2px solid rgba(99, 102, 241, 0.15);
-}
-
-.card-icon {
-  font-size: 1.75rem;
-  line-height: 1;
-}
-
-.card-header h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #000;
-}
-
-.info-card .keypoints {
-  margin: 0;
-  padding-left: 1.25rem;
-}
-
-.info-card .keypoints li {
-  margin-bottom: 0.875rem;
-  line-height: 1.7;
-  color: #2c3e50;
-}
-
-.info-card .keypoints li:last-child {
-  margin-bottom: 0;
-}
-
-/* Mobile Responsiveness for Option 2 */
-@media (max-width: 768px) {
-  .about-header {
-    padding: 1.5rem 1.5rem;
+  .content-cards-section {
+    padding: 2rem 1rem;
   }
   
-  .about-header .intro-text {
-    font-size: 1rem;
-  }
-  
-  .info-grid-modern {
+  .card-tabs {
     grid-template-columns: 1fr;
-    gap: 1.25rem;
+    gap: 0.75rem;
   }
   
-  .info-card {
+  .card-tab-btn {
+    padding: 1rem;
+  }
+  
+  .card-tab-btn .tab-icon {
+    font-size: 1.5rem;
+  }
+  
+  .card-tab-btn .tab-text {
+    font-size: 0.95rem;
+  }
+  
+  .card-inner {
     padding: 1.5rem;
   }
-}
-
-
-/* ============================================
-   OPTION 3: ACCORDION LAYOUT (ULTRA COMPACT)
-   ============================================ */
-
-/* Accordion Container */
-.accordion-container {
-  margin-top: 2rem;
-}
-
-.accordion-item {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  margin-bottom: 0.75rem;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-.accordion-item:hover {
-  border-color: rgba(99, 102, 241, 0.3);
-}
-
-.accordion-header {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 1.25rem 1.5rem;
-  background: #ffffff;
-  cursor: pointer;
-  transition: background 0.3s ease;
-  border: none;
-  width: 100%;
-  text-align: left;
-  font-family: inherit;
-}
-
-.accordion-header:hover {
-  background: rgba(99, 102, 241, 0.05);
-}
-
-.accordion-header.active {
-  background: rgba(99, 102, 241, 0.1);
-}
-
-.accordion-icon {
-  font-size: 1.5rem;
-  line-height: 1;
-  flex-shrink: 0;
-}
-
-.accordion-title {
-  flex: 1;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #000;
-  margin: 0;
-}
-
-.accordion-toggle {
-  font-size: 1.25rem;
-  color: rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease;
-  flex-shrink: 0;
-}
-
-.accordion-header.active .accordion-toggle {
-  transform: rotate(180deg);
-}
-
-.accordion-body {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease, padding 0.3s ease;
-  background: #ffffff;
-}
-
-.accordion-body.active {
-  max-height: 1000px;
-  padding: 0 1.5rem 1.5rem;
-}
-
-.accordion-body .keypoints {
-  margin: 0;
-  padding-left: 1.5rem;
-}
-
-.accordion-body .keypoints li {
-  margin-bottom: 0.875rem;
-  line-height: 1.7;
-  color: #2c3e50;
-}
-
-.accordion-body .keypoints li:last-child {
-  margin-bottom: 0;
-}
-
-/* Mobile Responsiveness for Option 3 */
-@media (max-width: 768px) {
-  .accordion-header {
-    padding: 1rem 1.25rem;
+  
+  .styled-list {
+    gap: 1.5rem;
   }
   
-  .accordion-title {
+  .list-marker {
     font-size: 1rem;
   }
   
-  .accordion-icon {
-    font-size: 1.25rem;
-  }
-  
-  .accordion-body.active {
-    padding: 0 1.25rem 1.25rem;
+  .styled-list li p {
+    font-size: 0.95rem;
   }
 }
-
 
 /* ============================================
-   SHARED UTILITIES
+   ACCESSIBILITY & UTILITIES
    ============================================ */
 
-/* Smooth scrolling for tab navigation */
-.tab-nav {
-  scroll-behavior: smooth;
-}
-
-/* Focus states for accessibility */
-.tab-btn:focus,
-.accordion-header:focus {
-  outline: 2px solid #6366f1;
+.card-tab-btn:focus {
+  outline: 3px solid #6366f1;
   outline-offset: 2px;
 }
 
-/* Print styles */
-@media print {
-  .tab-nav {
-    display: none;
-  }
-  
-  .tab-content {
-    display: block !important;
-    page-break-inside: avoid;
-  }
-  
-  .accordion-body {
-    max-height: none !important;
-    padding: 0 1.5rem 1.5rem !important;
+@media (prefers-reduced-motion: reduce) {
+  .content-card,
+  .card-tab-btn {
+    animation: none !important;
+    transition: none !important;
   }
 }
 
-/* Reduced motion for accessibility */
-@media (prefers-reduced-motion: reduce) {
-  .tab-content,
-  .accordion-body,
-  .info-card {
-    animation: none !important;
-    transition: none !important;
+@media print {
+  .card-tabs {
+    display: none;
+  }
+  
+  .content-card {
+    display: block !important;
+    page-break-inside: avoid;
   }
 }
