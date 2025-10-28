@@ -157,10 +157,11 @@
 .content-cards-section {
   padding: 3rem 0;
   background: #f8f9fa;
+  width: 100%;
 }
 
 .content-cards-section .container {
-  max-width: 1400px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 3rem;
 }
