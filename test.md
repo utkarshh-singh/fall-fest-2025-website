@@ -128,5 +128,5 @@ permalink: /test/
     <a class="btn" href="{{ '/contact/' | relative_url }}">Join the Discord</a>
   </section>
 
-  <script src="{{ '/assets/js/about.js' | relative_url }}"></script>
 </main>
+<script src="{{ '/assets/js/about.js' | relative_url }}"></script>
