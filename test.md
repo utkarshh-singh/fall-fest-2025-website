@@ -129,4 +129,4 @@ permalink: /test/
   </section>
 
 </main>
-<script src="{{ '/assets/js/about.js' | relative_url }}"></script>
+<script src="{{ '/assets/about.js' | relative_url }}"></script>
