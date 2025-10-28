@@ -5,24 +5,52 @@ document.addEventListener('DOMContentLoaded', function() {
   // ============================================
   
   const textBlocks = document.querySelectorAll('.hero-text-block');
+  const heroDots = document.querySelectorAll('.hero-dot');
   let currentBlock = 0;
-  const rotationInterval = 3000; // 6 seconds per text block
+  const rotationInterval = 6000; // 6 seconds per text block
+  let rotationTimer;
   
   function rotateText() {
-    // Remove active class from current block
+    // Remove active class from current block and dot
     textBlocks[currentBlock].classList.remove('active');
+    heroDots[currentBlock].classList.remove('active');
     
     // Move to next block
     currentBlock = (currentBlock + 1) % textBlocks.length;
     
-    // Add active class to next block
+    // Add active class to next block and dot
     textBlocks[currentBlock].classList.add('active');
+    heroDots[currentBlock].classList.add('active');
   }
   
-  // Start rotation if text blocks exist
-  if (textBlocks.length > 1) {
-    setInterval(rotateText, rotationInterval);
+  function goToSlide(index) {
+    // Remove active from all
+    textBlocks.forEach(block => block.classList.remove('active'));
+    heroDots.forEach(dot => dot.classList.remove('active'));
+    
+    // Set current to clicked index
+    currentBlock = index;
+    
+    // Add active to selected
+    textBlocks[currentBlock].classList.add('active');
+    heroDots[currentBlock].classList.add('active');
+    
+    // Reset timer
+    clearInterval(rotationTimer);
+    rotationTimer = setInterval(rotateText, rotationInterval);
   }
+  
+  // Start automatic rotation if text blocks exist
+  if (textBlocks.length > 1) {
+    rotationTimer = setInterval(rotateText, rotationInterval);
+  }
+  
+  // Add click handlers to dots
+  heroDots.forEach((dot, index) => {
+    dot.addEventListener('click', function() {
+      goToSlide(index);
+    });
+  });
   
   // ============================================
   // CONTENT CARDS NAVIGATION
@@ -78,21 +106,4 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
-  
-  // Optional: Pause text rotation on hover
-  const heroContent = document.querySelector('.hero-content');
-  let rotationTimer;
-  
-  if (heroContent && textBlocks.length > 1) {
-    // Store the interval ID
-    rotationTimer = setInterval(rotateText, rotationInterval);
-    
-    heroContent.addEventListener('mouseenter', function() {
-      clearInterval(rotationTimer);
-    });
-    
-    heroContent.addEventListener('mouseleave', function() {
-      rotationTimer = setInterval(rotateText, rotationInterval);
-    });
-  }
 });
