@@ -18,22 +18,25 @@ permalink: /test/
 
 <main class="container">
   <section id="about" class="card">
-    <img
-      src="{{ '/assets/Full_Illustration.png' | relative_url }}"
-      alt="Illustration celebrating quantum ideas and pioneers"
-      class="about-banner"
-      loading="eager"
-      decoding="async"
-    >
-  
-    <div class="about-intro">
-      <p>
-        <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
-        making, and community building. This year, we're marking 
-        <strong>100 years of quantum science</strong> by bringing together curious beginners,
-        builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
-        by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
-      </p>
+    <!-- Image container with overlay -->
+    <div class="about-banner-container">
+      <img
+        src="{{ '/assets/Full_Illustration.png' | relative_url }}"
+        alt="Illustration celebrating quantum ideas and pioneers"
+        class="about-banner"
+        loading="eager"
+        decoding="async"
+      >
+      <div class="banner-overlay"></div>
+      <div class="banner-text">
+        <p>
+          <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
+          making, and community building. This year, we're marking 
+          <strong>100 years of quantum science</strong> by bringing together curious beginners,
+          builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
+          by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
+        </p>
+      </div>
     </div>
   
     <!-- Tabbed Navigation -->
@@ -92,6 +95,8 @@ permalink: /test/
       </div>
     </div>
   </section>
+
+
 
 
   <section class="card">
