@@ -63,7 +63,7 @@ title: Home
   </ul>
 </section>
 
-<section class="card">
+<!-- <section class="card">
   <h2>Evening Expo & Networking</h2>
   <p>
     We’ll host a casual expo where <strong>companies, clubs, and professors</strong> can bring a banner,
@@ -76,7 +76,7 @@ title: Home
   <p class="note">
     Interested in a table? Contact the <a href="{{ '/organizers/' | relative_url }}">organizers</a>.
   </p>
-</section>
+</section> -->
 
 <section class="card">
   <h2>Inclusion & accessibility</h2>
