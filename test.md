@@ -18,18 +18,7 @@ permalink: /test/
 
 <main class="container">
   <section id="about" class="card about-section">
-    <!-- Full-width intro -->
-    <div class="about-header">
-      <p class="intro-text">
-        <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
-        making, and community building. This year, we're marking 
-        <strong>100 years of quantum science</strong> by bringing together curious beginners,
-        builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
-        by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
-      </p>
-    </div>
-  
-    <!-- Image banner -->
+    <!-- Banner Image -->
     <div class="banner-wrapper">
       <img
         src="{{ '/assets/Full_Illustration.png' | relative_url }}"
@@ -40,57 +29,87 @@ permalink: /test/
       >
     </div>
   
-    <!-- 2x2 Grid of info cards -->
-    <div class="info-grid-modern">
-      <div class="info-card">
-        <div class="card-header">
-          <span class="card-icon">🚀</span>
-          <h3>What you'll do</h3>
+    <!-- Intro Text -->
+    <div class="about-intro">
+      <p>
+        <strong>Qiskit Fall Fest 2025</strong> is a student-run celebration of learning,
+        making, and community building. This year, we're marking 
+        <strong>100 years of quantum science</strong> by bringing together curious beginners,
+        builders, and mentors for hands-on labs, workshops and a friendly hackathon powered 
+        by <strong>IBM Quantum</strong> and the <strong>uOttawa</strong> community.
+      </p>
+    </div>
+  
+    <!-- Accordion Container -->
+    <div class="accordion-container">
+      
+      <!-- Accordion Item 1 -->
+      <div class="accordion-item">
+        <button class="accordion-header" data-accordion="accordion1">
+          <span class="accordion-icon">🚀</span>
+          <h3 class="accordion-title">What you'll do</h3>
+          <span class="accordion-toggle">▼</span>
+        </button>
+        <div id="accordion1" class="accordion-body">
+          <ul class="keypoints">
+            <li><strong>Day 1 · Workshops:</strong> learn qubits, circuits, and Qiskit by building small programs and visualizing results.</li>
+            <li><strong>Day 2 · Workshop & Hackathon:</strong> team up to prototype something useful or delightful—QML demos, optimization ideas, or open-ended experiments on a real quantum device from IBM.</li>
+          </ul>
         </div>
-        <ul class="keypoints">
-          <li><strong>Day 1 · Workshops:</strong> learn qubits, circuits, and Qiskit by building small programs and visualizing results.</li>
-          <li><strong>Day 2 · Workshop & Hackathon:</strong> team up to prototype something useful or delightful—QML demos, optimization ideas, or open-ended experiments on a real quantum device from IBM.</li>
-        </ul>
       </div>
   
-      <div class="info-card">
-        <div class="card-header">
-          <span class="card-icon">👥</span>
-          <h3>Who should attend</h3>
+      <!-- Accordion Item 2 -->
+      <div class="accordion-item">
+        <button class="accordion-header" data-accordion="accordion2">
+          <span class="accordion-icon">👥</span>
+          <h3 class="accordion-title">Who should attend</h3>
+          <span class="accordion-toggle">▼</span>
+        </button>
+        <div id="accordion2" class="accordion-body">
+          <ul class="keypoints">
+            <li>Curious newcomers with no prior quantum knowledge. Basic Python skills are a plus!</li>
+            <li>Students in CS/Maths/Physics/Engineering.</li>
+            <li>Researchers, educators, hobbyists, and industry friends.</li>
+          </ul>
         </div>
-        <ul class="keypoints">
-          <li>Curious newcomers with no prior quantum knowledge. Basic Python skills are a plus!</li>
-          <li>Students in CS/Maths/Physics/Engineering.</li>
-          <li>Researchers, educators, hobbyists, and industry friends.</li>
-        </ul>
       </div>
   
-      <div class="info-card">
-        <div class="card-header">
-          <span class="card-icon">📚</span>
-          <h3>What you'll learn</h3>
+      <!-- Accordion Item 3 -->
+      <div class="accordion-item">
+        <button class="accordion-header" data-accordion="accordion3">
+          <span class="accordion-icon">📚</span>
+          <h3 class="accordion-title">What you'll learn</h3>
+          <span class="accordion-toggle">▼</span>
+        </button>
+        <div id="accordion3" class="accordion-body">
+          <ul class="keypoints">
+            <li>How qubits, gates, and measurements fit into quantum circuits.</li>
+            <li>Running code with <em>Qiskit</em> in notebooks; when to use simulators vs. real backends.</li>
+            <li>Quantum Computing, Quantum ML, variational algorithms and optimization.</li>
+            <li>Broader quantum science: Photonics based quantum computing, sensing & devices, quantum-safe crypto, history & milestones.</li>
+          </ul>
         </div>
-        <ul class="keypoints">
-          <li>How qubits, gates, and measurements fit into quantum circuits.</li>
-          <li>Running code with <em>Qiskit</em> in notebooks; when to use simulators vs. real backends.</li>
-          <li>Quantum Computing, Quantum ML, variational algorithms and optimization.</li>
-          <li>Broader quantum science: Photonics based quantum computing, sensing & devices, quantum-safe crypto, history & milestones.</li>
-        </ul>
       </div>
   
-      <div class="info-card">
-        <div class="card-header">
-          <span class="card-icon">🛠️</span>
-          <h3>Tools we'll use</h3>
+      <!-- Accordion Item 4 -->
+      <div class="accordion-item">
+        <button class="accordion-header" data-accordion="accordion4">
+          <span class="accordion-icon">🛠️</span>
+          <h3 class="accordion-title">Tools we'll use</h3>
+          <span class="accordion-toggle">▼</span>
+        </button>
+        <div id="accordion4" class="accordion-body">
+          <ul class="keypoints">
+            <li>Qiskit (Python), Jupyter/Colab.</li>
+            <li>GitHub for projects and submissions.</li>
+            <li>Discord for announcements, team-finding, and support.</li>
+          </ul>
         </div>
-        <ul class="keypoints">
-          <li>Qiskit (Python), Jupyter/Colab.</li>
-          <li>GitHub for projects and submissions.</li>
-          <li>Discord for announcements, team-finding, and support.</li>
-        </ul>
       </div>
+  
     </div>
   </section>
+
 
 
 
