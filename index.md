@@ -78,15 +78,6 @@ title: Home
   </p>
 </section> -->
 
-<section class="card">
-  <h2>Inclusion & accessibility</h2>
-  <p>
-    We strive to make Fall Fest welcoming for everyone. Venues are accessible; dietary options will be
-    available during the event. All participants must agree to our
-    <a href="{{ '/code-of-conduct/' | relative_url }}">Code of Conduct</a>.
-  </p>
-</section>
-
 <section class="card" aria-labelledby="sponsor-heading">
   <h2 id="sponsor-heading">Sponsors & Partners</h2>
 
@@ -107,6 +98,14 @@ title: Home
   </div>
 </section>
 
+<section class="card">
+  <h2>Inclusion & accessibility</h2>
+  <p>
+    We strive to make Fall Fest welcoming for everyone. Venues are accessible; dietary options will be
+    available during the event. All participants must agree to our
+    <a href="{{ '/code-of-conduct/' | relative_url }}">Code of Conduct</a>.
+  </p>
+</section>
 
 <section class="card center">
   <h2>Stay in the loop</h2>
