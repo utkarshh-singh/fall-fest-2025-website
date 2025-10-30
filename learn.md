@@ -16,7 +16,8 @@ permalink: /learn/
   <section class="card">
     <h2>📌 Suggested 60-minute path</h2>
     <ol>
-      <li>Open this Colab notebook: <a href="https://colab.research.google.com/github/mtreinish/qiskit-workshop/blob/master/Workshop.ipynb" target="_blank" rel="noopener">Qiskit 101 (Colab)</a>.</li>
+      <li>Open this Colab notebook: <a href="https://colab.research.google.com/github/utkarshh-singh/fall-fest-2025-website/blob/main/assets/hello-world.ipynb
+" target="_blank" rel="noopener">Qiskit 101 (Colab)</a>.</li>
       <li>Run the first cells to install Qiskit (the notebook guides you).</li>
       <li>Skim the first chapter of the <a href="https://qiskit.org/textbook/" target="_blank" rel="noopener">Qiskit Textbook</a>.</li>
     </ol>
